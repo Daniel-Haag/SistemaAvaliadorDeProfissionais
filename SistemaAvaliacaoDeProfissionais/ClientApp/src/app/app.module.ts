@@ -60,6 +60,7 @@ import { LoginComponent } from './components/login/login.component';
       { path: '', component: LoginComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'index', component: HomeComponent },
     ]),
     BrowserAnimationsModule
   ],

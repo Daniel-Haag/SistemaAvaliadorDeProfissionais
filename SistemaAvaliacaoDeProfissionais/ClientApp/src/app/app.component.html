@@ -1,8 +1,8 @@
 <body>
-  <app-header></app-header>
-  <app-nav></app-nav>
+  <app-header *ngIf="mostrarMenu"></app-header>
+  <app-nav *ngIf="mostrarMenu"></app-nav>
   <div class="">
     <router-outlet></router-outlet>
   </div>
-  <app-footer></app-footer>
+  <app-footer *ngIf="mostrarMenu"></app-footer>
 </body>
