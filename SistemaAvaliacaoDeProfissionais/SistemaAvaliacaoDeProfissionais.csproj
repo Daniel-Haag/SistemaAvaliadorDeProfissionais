@@ -16,16 +16,24 @@
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove="ClientApp\src\app\evaluation\**" />
     <Compile Remove="ClientApp\src\app\models\user\**" />
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove="ClientApp\src\app\evaluation\**" />
     <Content Remove="ClientApp\src\app\models\user\**" />
+    <EmbeddedResource Remove="ClientApp\src\app\evaluation\**" />
     <EmbeddedResource Remove="ClientApp\src\app\models\user\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove="ClientApp\src\app\evaluation\**" />
     <None Remove="ClientApp\src\app\models\user\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\evaluation\evaluation.component.css" />
+    <None Remove="ClientApp\src\app\evaluation\evaluation.component.html" />
+    <None Remove="ClientApp\src\app\evaluation\evaluation.component.spec.ts" />
+    <None Remove="ClientApp\src\app\evaluation\evaluation.component.ts" />
     <None Remove="ClientApp\src\app\models\user\user.module.ts" />
   </ItemGroup>
 

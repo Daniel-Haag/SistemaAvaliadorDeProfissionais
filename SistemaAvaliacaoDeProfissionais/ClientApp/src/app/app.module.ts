@@ -26,6 +26,9 @@ import { MatSortModule } from '@angular/material/sort';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
+import { EvaluationComponent } from './components/evaluation/evaluation.component';
+import { IndexComponent } from './components/index/index.component';
+import { MatRadioModule } from '@angular/material/radio';
 
 
 @NgModule({
@@ -38,7 +41,9 @@ import { LoginComponent } from './components/login/login.component';
     NavComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    EvaluationComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -56,11 +61,13 @@ import { LoginComponent } from './components/login/login.component';
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
+    MatRadioModule,
     RouterModule.forRoot([
       { path: '', component: LoginComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'index', component: HomeComponent },
+      { path: 'index', component: IndexComponent },
+      { path: 'evaluation', component: EvaluationComponent },
     ]),
     BrowserAnimationsModule
   ],
