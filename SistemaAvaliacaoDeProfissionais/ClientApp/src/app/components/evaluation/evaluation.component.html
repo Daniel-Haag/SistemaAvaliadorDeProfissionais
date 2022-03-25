@@ -1,15 +1,14 @@
-<p class="margin-left">evaluation works!</p>
 
-<mat-card class="margin-left" >
+
+<mat-card class="margin">
   <mat-card-title>
-    Autoavaliação
+    Questionamento 1
   </mat-card-title>
-  <form>
-
+  <form *ngFor="let iten of itens">
     <mat-radio-button>
+      {{iten}}
     </mat-radio-button>
-
-
+    
   </form>
 
 

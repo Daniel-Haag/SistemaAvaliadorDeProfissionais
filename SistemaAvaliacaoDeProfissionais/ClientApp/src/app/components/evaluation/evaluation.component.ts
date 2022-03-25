@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EvaluationComponent implements OnInit {
 
+  itens: string[] = ["daniel", "rodrigues", "lima", "haag"];
+
   constructor() { }
 
   ngOnInit(): void {
