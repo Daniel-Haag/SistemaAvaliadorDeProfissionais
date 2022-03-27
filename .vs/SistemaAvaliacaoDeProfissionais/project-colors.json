@@ -5,6 +5,11 @@
       "ProjectGuid": "7791ee07-4f43-4317-9b70-a73f3b6fc398",
       "DisplayName": "SistemaAvaliacaoDeProfissionais",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

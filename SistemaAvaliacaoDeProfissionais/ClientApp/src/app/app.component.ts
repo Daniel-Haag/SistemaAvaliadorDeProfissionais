@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../environments/environment';
 import { LoginService } from './services/login.service';
 
 @Component({
@@ -8,13 +9,18 @@ import { LoginService } from './services/login.service';
 export class AppComponent implements OnInit {
   title = 'app';
 
-  mostrarMenu: boolean = false;
+  mostrarMenu: boolean = true;
 
   constructor(private loginService: LoginService) {
     
   }
 
   ngOnInit() {
+
+    if (environment.loggedUser) {
+      this.mostrarMenu = true;
+    }
+
     this.loginService.mostrarMenuEmitter.subscribe(
       mostrar => this.mostrarMenu = mostrar
     );

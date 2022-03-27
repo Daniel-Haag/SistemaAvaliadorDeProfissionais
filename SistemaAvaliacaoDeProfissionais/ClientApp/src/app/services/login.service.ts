@@ -1,6 +1,7 @@
 import { EventEmitter } from '@angular/core';
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
+import { environment } from '../../environments/environment';
 import { User } from '../models/user.model';
 
 @Injectable({
@@ -18,6 +19,8 @@ export class LoginService {
 
     if (true) {
       this.authUser = true;
+
+      environment.loggedUser = true;
 
       this.mostrarMenuEmitter.emit(true);
 

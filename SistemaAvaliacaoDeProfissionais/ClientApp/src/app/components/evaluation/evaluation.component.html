@@ -1,17 +1,13 @@
 
 
-<mat-card class="margin">
+<mat-card class="margin" *ngFor="let question of questions">
   <mat-card-title>
-    Questionamento 1
+    {{question}}
   </mat-card-title>
-  <form *ngFor="let iten of itens">
-    <mat-radio-button>
-      {{iten}}
+  <form *ngFor="let option of options">
+    <mat-radio-button id="{{option}}">
+      {{option}}
     </mat-radio-button>
-    
   </form>
-
-
 </mat-card>
-
 
