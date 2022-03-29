@@ -1,12 +1,35 @@
 
 
+<!--<mat-card class="margin" *ngFor="let question of questions" id="{{question}}">
+  <mat-card-title>
+    {{question}}
+  </mat-card-title>
+  <form>
+    <mat-radio-button *ngFor="let option of options">
+      {{option}}
+    </mat-radio-button>
+  </form>
+</mat-card>-->
+
 <mat-card class="margin" *ngFor="let question of questions">
   <mat-card-title>
     {{question}}
   </mat-card-title>
-  <form *ngFor="let option of options">
-    <mat-radio-button id="{{option}}">
-      {{option}}
+  <form>
+    <mat-radio-button name="{{question}}">
+      1
+    </mat-radio-button>
+    <mat-radio-button name="{{question}}">
+      2
+    </mat-radio-button>
+    <mat-radio-button name="{{question}}">
+      3
+    </mat-radio-button>
+    <mat-radio-button name="{{question}}">
+      4
+    </mat-radio-button>
+    <mat-radio-button name="{{question}}">
+      5
     </mat-radio-button>
   </form>
 </mat-card>
