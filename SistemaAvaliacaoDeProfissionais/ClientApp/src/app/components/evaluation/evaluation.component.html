@@ -1,5 +1,3 @@
-
-
 <!--<mat-card class="margin" *ngFor="let question of questions" id="{{question}}">
   <mat-card-title>
     {{question}}
@@ -11,26 +9,32 @@
   </form>
 </mat-card>-->
 
-<mat-card class="margin" *ngFor="let question of questions">
-  <mat-card-title>
-    {{question}}
-  </mat-card-title>
-  <form>
-    <mat-radio-button name="{{question}}">
-      1
-    </mat-radio-button>
-    <mat-radio-button name="{{question}}">
-      2
-    </mat-radio-button>
-    <mat-radio-button name="{{question}}">
-      3
-    </mat-radio-button>
-    <mat-radio-button name="{{question}}">
-      4
-    </mat-radio-button>
-    <mat-radio-button name="{{question}}">
-      5
-    </mat-radio-button>
-  </form>
-</mat-card>
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <div style="margin:100px 100px 100px 400px">
+    <mat-card class="" *ngFor="let question of questions" style="margin:0px 50px 50px 0px">
+      <mat-card-title>
+        {{question}}
+      </mat-card-title>
+      <mat-radio-button name="{{question}}" value="1" ngDefaultControl formControlName="{{question}}">
+        1
+      </mat-radio-button><br />
+      <mat-radio-button name="{{question}}" value="2" ngDefaultControl formControlName="{{question}}">
+        2
+      </mat-radio-button><br />
+      <mat-radio-button name="{{question}}" value="3" ngDefaultControl formControlName="{{question}}">
+        3
+      </mat-radio-button><br />
+      <mat-radio-button name="{{question}}" value="4" ngDefaultControl formControlName="{{question}}">
+        4
+      </mat-radio-button><br />
+      <mat-radio-button name="{{question}}" value="5" ngDefaultControl formControlName="{{question}}">
+        5
+      </mat-radio-button><br />
+    </mat-card>
+    <button type="submit">Confirmar</button>
+    <button>Cancelar</button>
+  </div>
+</form>
+
+
 
