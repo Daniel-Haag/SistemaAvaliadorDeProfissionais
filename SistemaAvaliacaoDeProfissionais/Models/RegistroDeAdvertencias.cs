@@ -1,15 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SistemaAvaliacaoDeProfissionais.Models
 {
     public class RegistroDeAdvertencias
     {
+        [Key]
         public int RegistroDeAdvertenciasID { get; set; }
-        public Profissionais Profissional { get; set; }
         public DateTime DataAdvertencia { get; set; }
-        public string Descricao { get; set; }
+        public string? Descricao { get; set; }
         public string CaminhoArquivo { get; set; }
         public PeriodoAvaliacao Periodo { get; set; }
     }

@@ -5,12 +5,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SistemaAvaliacaoDeProfissionais.Models
 {
-    public class Cargo
+    public class Gestores
     {
         [Key]
-        public int CargoID { get; set; }
-        public string NomeCargo { get; set; }
-        [ForeignKey("TipoCargoID")]
-        public TipoCargo? TipoCargo { get; set; }
+        public int GestorID { get; set; }
+        [ForeignKey("ProfissionalID")]
+        public Profissionais Profissional { get; set; }
     }
 }

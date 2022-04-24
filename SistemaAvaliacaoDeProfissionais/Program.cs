@@ -1,8 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using SistemaAvaliacaoDeProfissionais.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MainDbContext>(options =>
+options.UseSqlServer("Password=123456;Persist Security Info=True;User ID=sa;Initial Catalog=ProfessionalPerformanceEvaluation;Data Source=DESKTOP-AKVL4PJ\\SQLEXPRESS"));
 
 var app = builder.Build();
 

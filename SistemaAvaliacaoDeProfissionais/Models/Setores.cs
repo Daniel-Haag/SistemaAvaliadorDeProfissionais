@@ -6,6 +6,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
 {
     public class Setores
     {
+        [Key]
         public int SetorID { get; set; }
         public string NomeSetor { get; set; }
     }

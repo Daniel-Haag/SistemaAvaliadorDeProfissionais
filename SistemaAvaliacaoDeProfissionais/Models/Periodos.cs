@@ -6,6 +6,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
 {
     public class Periodos
     {
+        [Key]
         public int PeriodoID { get; set; }
         public int CodigoPeriodo { get; set; }
         public string Periodo { get; set; }

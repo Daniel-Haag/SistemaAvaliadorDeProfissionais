@@ -7,118 +7,158 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76083
 ++Dependências
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76082
 ++Properties
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\properties\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\properties\
 ++wwwroot
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\wwwroot\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\wwwroot\
 ++ClientApp
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\
-++.angular
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\
 ++src
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\
 ++app
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\
 ++components
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\
+++evaluation
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\
+++evaluation.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\evaluation.component.css
+++evaluation.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\evaluation.component.html
+++evaluation.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\evaluation.component.spec.ts
+++evaluation.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\evaluation.component.ts
+++index
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\
+++index.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\index.component.css
+++index.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\index.component.html
+++index.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\index.component.spec.ts
+++index.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\index.component.ts
+++login
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\
 ++template
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\
 ++footer
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\
-++footer.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.css
-++footer.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.html
-++footer.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.spec.ts
-++footer.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\
 ++header
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\
 ++header.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.css
 ++header.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.html
 ++header.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.spec.ts
 ++header.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.ts
 ++nav
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\
-++nav.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.css
-++nav.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.html
-++nav.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.spec.ts
-++nav.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\
 ++counter
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\
 ++fetch-data
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\fetch-data\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\fetch-data\
 ++home
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\
-++home.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\home.component.html
-++home.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\home.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\
+++models
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\
+++user.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\user.model.ts
 ++nav-menu
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\
+++services
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\
+++login.service.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\login.service.spec.ts
+++login.service.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\login.service.ts
 ++app.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.component.html
 ++app.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.component.ts
 ++app.module.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.module.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.module.ts
 ++app.server.module.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.server.module.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.server.module.ts
 ++assets
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\assets\
-++.gitkeep
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\assets\.gitkeep
-++employee.png
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\assets\employee.png
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\assets\
 ++environments
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\environments\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\environments\
+++environment.prod.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\environments\environment.prod.ts
+++environment.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\environments\environment.ts
 ++index.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\index.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\index.html
 ++main.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\main.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\main.ts
 ++polyfills.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\polyfills.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\polyfills.ts
 ++styles.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\styles.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\styles.css
 ++test.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\test.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\test.ts
 ++.browserslistrc
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.browserslistrc
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.browserslistrc
 ++.editorconfig
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.editorconfig
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.editorconfig
 ++.gitignore
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.gitignore
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\.gitignore
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.gitignore
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\.gitignore
 ++angular.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\angular.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\angular.json
 ++karma.conf.js
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\karma.conf.js
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\karma.conf.js
 ++package.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\package.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\package.json
 ++proxy.conf.js
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\proxy.conf.js
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\proxy.conf.js
 ++README.md
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\readme.md
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\readme.md
 ++tsconfig.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.json
 ++Controllers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\controllers\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\
+++WeatherForecastController.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\weatherforecastcontroller.cs
+++Models
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\
+++Cargo.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\cargo.cs
+++MainDbContext.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\maindbcontext.cs
+++PeriodoAvaliacao.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\periodoavaliacao.cs
+++Periodos.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\periodos.cs
+++PlanoDeAcao.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\planodeacao.cs
+++Profissionais.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\profissionais.cs
+++Questionario.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\questionario.cs
+++RegistroDeAdvertencias.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\registrodeadvertencias.cs
+++ResultadoAvaliacao.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\resultadoavaliacao.cs
+++Setores.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\setores.cs
+++StatusAvaliacao.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\statusavaliacao.cs
+++TipoCargo.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\tipocargo.cs
+++UsuariosExclusivos.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\usuariosexclusivos.cs
 ++Pages
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\pages\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\
 ++appsettings.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\appsettings.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\appsettings.json
 ++Program.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\program.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\program.cs
 ++WeatherForecast.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\weatherforecast.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\weatherforecast.cs
 ++Nenhuma dependência de serviço descoberta
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76084
 ++Analisadores
@@ -128,198 +168,120 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:estruturas
 ++Pacotes
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:pacotes
 ++launchSettings.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\properties\launchsettings.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\properties\launchsettings.json
 ++favicon.ico
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\wwwroot\favicon.ico
-++cache
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\wwwroot\favicon.ico
+++login.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.css
+++login.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.html
+++login.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.spec.ts
+++login.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.ts
+++footer.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.css
+++footer.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.html
+++footer.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.spec.ts
+++footer.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.ts
+++nav.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.css
+++nav.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.html
+++nav.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.spec.ts
+++nav.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.ts
 ++counter.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.html
 ++counter.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.spec.ts
 ++counter.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.ts
 ++fetch-data.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\fetch-data\fetch-data.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\fetch-data\fetch-data.component.html
 ++fetch-data.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\fetch-data\fetch-data.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\fetch-data\fetch-data.component.ts
+++home.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\home.component.html
+++home.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\home.component.ts
 ++nav-menu.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.css
 ++nav-menu.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.html
 ++nav-menu.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.ts
-++environment.prod.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\environments\environment.prod.ts
-++environment.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\environments\environment.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.ts
+++.gitkeep
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\assets\.gitkeep
+++employee.png
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\assets\employee.png
 ++package-lock.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\package-lock.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\package-lock.json
 ++tsconfig.app.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.app.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.app.json
 ++tsconfig.spec.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.spec.json
-++WeatherForecastController.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\controllers\weatherforecastcontroller.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.spec.json
 ++_ViewImports.cshtml
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\pages\_viewimports.cshtml
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\_viewimports.cshtml
 ++Error.cshtml
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml
 ++appsettings.Development.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\appsettings.development.json
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.App.Analyzers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
 ++Microsoft.AspNetCore.App.CodeFixes
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
 ++Microsoft.AspNetCore.Components.Analyzers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\users\danni\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++System.Text.Json.SourceGeneration
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.AspNetCore.App
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\microsoft.aspnetcore.app
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\microsoft.netcore.app
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\microsoft.netcore.app
 ++Microsoft.AspNetCore.SpaProxy (6.0.3)
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76101
-++angular-webpack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\
-++babel-webpack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76102
 ++Error.cshtml.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml.cs
-++1ea9ab3be85acc1dcf7d6bacf4533d5bad7de79b
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\1ea9ab3be85acc1dcf7d6bacf4533d5bad7de79b\
-++6a7745e658498a5b6dca4aee098f63b33e9a9ff5
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\6a7745e658498a5b6dca4aee098f63b33e9a9ff5\
-++78c197f1ff4c2a620c719763a99f6ae6a1a1d077
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\
-++0879c25a6aecab56eb7f82b6dc372c31.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\0879c25a6aecab56eb7f82b6dc372c31.json
-++17abbc8711ddebf7ed56558d53e3fc3e.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\17abbc8711ddebf7ed56558d53e3fc3e.json
-++2510bebbfd9d1011950be938ac8f313f.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\2510bebbfd9d1011950be938ac8f313f.json
-++26e3f94a9b3b6a923b7c15e384212b0d.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\26e3f94a9b3b6a923b7c15e384212b0d.json
-++2dc9960fa17aeba54fb7f9a530ac2a1f.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\2dc9960fa17aeba54fb7f9a530ac2a1f.json
-++2eb3e38d709976d4c30449e1e7618a86.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\2eb3e38d709976d4c30449e1e7618a86.json
-++2ed2d141c30aebd34a8ca331f07ed7fb.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\2ed2d141c30aebd34a8ca331f07ed7fb.json
-++34e1eafa5d3ec33056baeea95a53499f.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\34e1eafa5d3ec33056baeea95a53499f.json
-++35358542b8a58652ef7644e5bdb0f178.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\35358542b8a58652ef7644e5bdb0f178.json
-++3e85dbfbe01816ea4c7394c5db896df5.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\3e85dbfbe01816ea4c7394c5db896df5.json
-++5115e39646dc8eff1ce2bac86398cf66.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\5115e39646dc8eff1ce2bac86398cf66.json
-++54314524e7b614ecae37da36bc9d6513.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\54314524e7b614ecae37da36bc9d6513.json
-++5cf487ee33534b8195fb165933377ed1.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\5cf487ee33534b8195fb165933377ed1.json
-++5f45ffd169b40dfa4998484f84fc38e4.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\5f45ffd169b40dfa4998484f84fc38e4.json
-++62504cabd75ee0d7ea70812c59bb8d1e.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\62504cabd75ee0d7ea70812c59bb8d1e.json
-++774fd7da8b93aaae0bc744993560a4f4.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\774fd7da8b93aaae0bc744993560a4f4.json
-++7a0611ef2a8b99b7bf091e3b8197d10c.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\7a0611ef2a8b99b7bf091e3b8197d10c.json
-++7b1eba1084e28b00c73c886b193e8fb1.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\7b1eba1084e28b00c73c886b193e8fb1.json
-++8198321f12c794a6397db23e20c89ce6.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\8198321f12c794a6397db23e20c89ce6.json
-++8404fba98c47f7881270da285680f702.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\8404fba98c47f7881270da285680f702.json
-++8beba4d5cc1ca1f3f728c8c2c6f29d5f.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\8beba4d5cc1ca1f3f728c8c2c6f29d5f.json
-++958b720c680f1bc4e52cbe59b742e199.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\958b720c680f1bc4e52cbe59b742e199.json
-++99b6ecdeca4766b2cbac158e1037a8ab.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\99b6ecdeca4766b2cbac158e1037a8ab.json
-++9cd91ff31254fcb1c101cfffc1d0c3ea.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\9cd91ff31254fcb1c101cfffc1d0c3ea.json
-++a942aabeb269cc71020d14f959edd4a0.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\a942aabeb269cc71020d14f959edd4a0.json
-++ae34609009d65353358f3604172d71c5.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\ae34609009d65353358f3604172d71c5.json
-++b3dae27b2020ebb8c837098249c8b76b.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\b3dae27b2020ebb8c837098249c8b76b.json
-++b6129207b2c54a7b15dc03fc3229a0c0.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\b6129207b2c54a7b15dc03fc3229a0c0.json
-++bc2ac9f85919b993c6cffd19262e89a3.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\bc2ac9f85919b993c6cffd19262e89a3.json
-++c388b99dca483fa029c6d1faaa334b01.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c388b99dca483fa029c6d1faaa334b01.json
-++c9b2b540a8b3ba22c69758854d030651.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c9b2b540a8b3ba22c69758854d030651.json
-++cb217ac1766646dd3d631f6bab7bb4e1.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\cb217ac1766646dd3d631f6bab7bb4e1.json
-++cc6ca701607496c7153a71f1a755385c.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\cc6ca701607496c7153a71f1a755385c.json
-++d5a9792986ec2339024ac03ec867c5ae.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\d5a9792986ec2339024ac03ec867c5ae.json
-++f5219834002b562fef8dd3f5eeb54196.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\f5219834002b562fef8dd3f5eeb54196.json
-++0.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\1ea9ab3be85acc1dcf7d6bacf4533d5bad7de79b\0.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\6a7745e658498a5b6dca4aee098f63b33e9a9ff5\0.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\0.pack
-++index.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\1ea9ab3be85acc1dcf7d6bacf4533d5bad7de79b\index.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\6a7745e658498a5b6dca4aee098f63b33e9a9ff5\index.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\index.pack
-++1.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\1.pack
-++10.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\10.pack
-++11.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\11.pack
-++12.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\12.pack
-++13.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\13.pack
-++14.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\14.pack
-++15.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\15.pack
-++16.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\16.pack
-++17.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\17.pack
-++18.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\18.pack
-++2.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\2.pack
-++3.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\3.pack
-++4.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\4.pack
-++5.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\5.pack
-++6.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\6.pack
-++7.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\7.pack
-++8.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\8.pack
-++9.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\9.pack
-++index.pack.old
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\novo sgd\sistemaavaliacaodeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\78c197f1ff4c2a620c719763a99f6ae6a1a1d077\index.pack.old
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml.cs
+++EntityFramework (6.4.4)
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76418
+++Microsoft.EntityFrameworkCore.Tools (6.0.4)
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76441
+++Migrations
+++20220424032859_ModeloInicial.cs
+++MainDbContextModelSnapshot.cs
+++20220424032859_ModeloInicial.Designer.cs
+++20220424033211_ModeloInicial.cs
+++20220424033211_ModeloInicial.Designer.cs
+++20220424040141_ModeloInicial.cs
+++20220424040141_ModeloInicial.Designer.cs
+++20220424041458_ModeloInicial.cs
+++20220424041458_ModeloInicial.Designer.cs
+++20220424041622_ModeloInicial.cs
+++20220424041622_ModeloInicial.Designer.cs
+++20220424042116_ModeloInicial.cs
+++20220424042116_ModeloInicial.Designer.cs
+++20220424042510_ModeloInicial.cs
+++20220424042510_ModeloInicial.Designer.cs
