@@ -1,0 +1,10 @@
+.margin {
+  margin-left: 400px;
+  margin-top: 80px;
+  width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}

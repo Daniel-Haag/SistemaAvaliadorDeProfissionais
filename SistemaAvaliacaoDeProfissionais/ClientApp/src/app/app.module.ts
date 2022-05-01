@@ -29,6 +29,7 @@ import { LoginComponent } from './components/login/login.component';
 import { EvaluationComponent } from './components/evaluation/evaluation.component';
 import { IndexComponent } from './components/index/index.component';
 import { MatRadioModule } from '@angular/material/radio';
+import { RegistrationsComponent } from './components/registrations/registrations.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { MatRadioModule } from '@angular/material/radio';
     FooterComponent,
     LoginComponent,
     EvaluationComponent,
-    IndexComponent
+    IndexComponent,
+    RegistrationsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -69,6 +71,7 @@ import { MatRadioModule } from '@angular/material/radio';
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'index', component: IndexComponent },
       { path: 'evaluation', component: EvaluationComponent },
+      { path: 'registrations', component: RegistrationsComponent }
     ]),
     BrowserAnimationsModule
   ],
