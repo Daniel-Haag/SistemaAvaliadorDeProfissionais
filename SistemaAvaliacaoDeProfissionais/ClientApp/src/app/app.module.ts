@@ -30,6 +30,7 @@ import { EvaluationComponent } from './components/evaluation/evaluation.componen
 import { IndexComponent } from './components/index/index.component';
 import { MatRadioModule } from '@angular/material/radio';
 import { RegistrationsComponent } from './components/registrations/registrations.component';
+import { RegistrationOfProfessionalsComponent } from './components/registration-of-professionals/registration-of-professionals.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { RegistrationsComponent } from './components/registrations/registrations
     LoginComponent,
     EvaluationComponent,
     IndexComponent,
-    RegistrationsComponent
+    RegistrationsComponent,
+    RegistrationOfProfessionalsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
