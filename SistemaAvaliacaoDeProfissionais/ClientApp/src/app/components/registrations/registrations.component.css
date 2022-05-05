@@ -8,3 +8,8 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+button {
+    width:50%;
+    margin-left:25%;
+}

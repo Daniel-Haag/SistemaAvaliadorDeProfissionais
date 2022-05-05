@@ -73,7 +73,8 @@ import { RegistrationOfProfessionalsComponent } from './components/registration-
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'index', component: IndexComponent },
       { path: 'evaluation', component: EvaluationComponent },
-      { path: 'registrations', component: RegistrationsComponent }
+      { path: 'registrations', component: RegistrationsComponent },
+      { path: 'registrationsOfProfessionals', component: RegistrationOfProfessionalsComponent }
     ]),
     BrowserAnimationsModule
   ],

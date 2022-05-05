@@ -17,7 +17,7 @@ export class RegistrationsComponent implements OnInit {
 
   navigateToProfessionalCreate(): void {
     console.log('Navegando...');
-    this.router.navigate(['']);
+    this.router.navigate(['registrationsOfProfessionals']);
   }
 
 }

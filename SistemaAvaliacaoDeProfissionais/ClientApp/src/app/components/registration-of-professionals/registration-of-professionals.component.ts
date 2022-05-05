@@ -32,9 +32,22 @@ export class RegistrationOfProfessionalsComponent implements OnInit {
     userName: 'dhaag'
   }
 
+  professional3: Professional = {
+    professionalID: 3,
+    name: 'Jéssica Rigol',
+    admission: '01/01/20',
+    evaluationStatus: '1',
+    office: 'Developer',
+    passWord: '123',
+    registration: '1622',
+    sector: 'ti',
+    userName: 'jrigol'
+  }
+
   professionals: Professional[] = [];
 
-  professionalsDataArray: Professional[] = [this.professional1, this.professional2];
+  columnsToDisplay = ['professionalID', 'name', 'admission', 'office', 'sector'];
+  professionalsDataArray: Professional[] = [this.professional1, this.professional2, this.professional3];
 
   constructor() { }
 
