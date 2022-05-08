@@ -1,3 +1,6 @@
+import { HttpClient } from '@angular/common/http';
+import { error } from '@angular/compiler/src/util';
+import { Inject } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Professional } from '../../models/professional.model';
@@ -9,57 +12,28 @@ import { Professional } from '../../models/professional.model';
 })
 export class RegistrationOfProfessionalsComponent implements OnInit {
 
-  professional1: Professional = {
-    professionalID: 1,
-    name: 'Daniel Haag',
-    admission: '01/01/20',
-    evaluationStatus: '1',
-    office: 'Developer',
-    passWord: '123',
-    registration: '1621',
-    sector: 'ti',
-    userName: 'dhaag'
+  //public professionals: Professional[] = [];
+
+  columnsToDisplay = ['ProfissionalID', 'Nome', 'Admissao', 'Cargo', 'Setor'];
+  professionalsDataArray: Professional[] = [];
+
+  constructor(private router: Router, private http: HttpClient, @Inject('BASE_URL') private baseUrl: string) {
+    http.get<Professional[]>(baseUrl + 'profissionais').subscribe(result => {
+
+      console.log(result);
+      this.professionalsDataArray = result;
+      //this.professionals = result;
+    }, error => console.error(error));
   }
-
-  professional2: Professional = {
-    professionalID: 1,
-    name: 'Daniel Haag',
-    admission: '01/01/20',
-    evaluationStatus: '1',
-    office: 'Developer',
-    passWord: '123',
-    registration: '1621',
-    sector: 'ti',
-    userName: 'dhaag'
-  }
-
-  professional3: Professional = {
-    professionalID: 3,
-    name: 'Jéssica Rigol',
-    admission: '01/01/20',
-    evaluationStatus: '1',
-    office: 'Developer',
-    passWord: '123',
-    registration: '1622',
-    sector: 'ti',
-    userName: 'jrigol'
-  }
-
-  professionals: Professional[] = [];
-
-  columnsToDisplay = ['professionalID', 'name', 'admission', 'office', 'sector'];
-  professionalsDataArray: Professional[] = [this.professional1, this.professional2, this.professional3];
-
-  constructor(private router: Router) { }
 
   ngOnInit(): void {
 
     
-      //Estou criando a listagem de profissionais no lado do cliente usando a documentação do Angular Material
-      //https://material.angular.io/components/table/overview
     
 
   }
+
+  
 
   navigateToCreateProfessional(): void {
     this.router.navigate(["createProfessional"]);

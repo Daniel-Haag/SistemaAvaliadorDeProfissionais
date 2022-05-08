@@ -1,11 +1,12 @@
 export interface Professional {
-  professionalID: number
-  name: string
+  ProfissionalID: number
+  Nome: string
   userName: string
-  passWord: string
-  registration: string
-  sector: string
-  office: string
-  admission: string
-  evaluationStatus: string
+  Senha: string
+  Matricula: string
+  Setor: string
+  Cargo: string
+  Admissao: string
+  Gestor: string
+  StatusAvaliacao: string
 }

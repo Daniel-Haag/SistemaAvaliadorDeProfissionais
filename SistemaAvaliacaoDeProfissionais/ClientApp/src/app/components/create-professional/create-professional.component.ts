@@ -18,7 +18,7 @@ export class CreateProfessionalComponent implements OnInit {
   }
 
   cancel(): void {
-    this.router.navigate(["registrationOfProfessionals"])
+    this.router.navigate(["registrationsOfProfessionals"])
   }
 
 }
