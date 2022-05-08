@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Professional } from '../../models/professional.model';
 
 @Component({
@@ -49,7 +50,7 @@ export class RegistrationOfProfessionalsComponent implements OnInit {
   columnsToDisplay = ['professionalID', 'name', 'admission', 'office', 'sector'];
   professionalsDataArray: Professional[] = [this.professional1, this.professional2, this.professional3];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
 
@@ -58,6 +59,10 @@ export class RegistrationOfProfessionalsComponent implements OnInit {
       //https://material.angular.io/components/table/overview
     
 
+  }
+
+  navigateToCreateProfessional(): void {
+    this.router.navigate(["createProfessional"]);
   }
 
 }

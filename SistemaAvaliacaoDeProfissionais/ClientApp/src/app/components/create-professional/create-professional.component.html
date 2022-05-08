@@ -1,0 +1,43 @@
+<mat-card class="margin">
+  <mat-card-subtitle>Cadastro de novo profissional</mat-card-subtitle>
+  
+  <mat-card-content>
+    <form>
+      <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Nome completo" value="">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Nome de usuário</mat-label>
+        <input matInput placeholder="User name" value="">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Senha</mat-label>
+        <input matInput placeholder="Senha de usuário" value="">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Matrícula</mat-label>
+        <input matInput placeholder="Matrícula" value="">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Setor</mat-label>
+        <input matInput placeholder="Setor" value="">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Cargo</mat-label>
+        <input matInput placeholder="Cargo" value="">
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Admissão</mat-label>
+        <input matInput placeholder="Data da admissão" value="">
+      </mat-form-field>
+    </form>
+    <button color="primary" mat-raised-button (click)="create()">
+      Salvar
+    </button>
+    <button color="warn" mat-raised-button (click)="cancel()">
+      Cancelar
+    </button>
+  </mat-card-content>
+  
+</mat-card>

@@ -15,7 +15,7 @@ export class RegistrationsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToProfessionalCreate(): void {
+  navigateToProfessionalList(): void {
     console.log('Navegando...');
     this.router.navigate(['registrationsOfProfessionals']);
   }
