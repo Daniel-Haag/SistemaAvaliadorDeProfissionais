@@ -8,9 +8,9 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class Cargo
     {
         [Key]
-        public int CargoID { get; set; }
-        public string NomeCargo { get; set; }
+        public int cargoID { get; set; }
+        public string nomeCargo { get; set; }
         [ForeignKey("TipoCargoID")]
-        public TipoCargo? TipoCargo { get; set; }
+        public TipoCargo? tipoCargo { get; set; }
     }
 }

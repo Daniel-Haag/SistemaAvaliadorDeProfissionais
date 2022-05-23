@@ -12,8 +12,8 @@ using SistemaAvaliacaoDeProfissionais.Models;
 namespace SistemaAvaliacaoDeProfissionais.Migrations
 {
     [DbContext(typeof(MainDbContext))]
-    [Migration("20220504014744_atualizacaoBanco1")]
-    partial class atualizacaoBanco1
+    [Migration("20220513022219_teste2")]
+    partial class teste2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -44,25 +44,6 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                     b.HasIndex("TipoCargoID");
 
                     b.ToTable("Cargos");
-                });
-
-            modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Gestores", b =>
-                {
-                    b.Property<int>("GestorID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GestorID"), 1L, 1);
-
-                    b.Property<int>("ProfissionalID")
-                        .HasColumnType("int");
-
-                    b.HasKey("GestorID");
-
-                    b.HasIndex("ProfissionalID")
-                        .IsUnique();
-
-                    b.ToTable("Gestores");
                 });
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.PeriodoAvaliacao", b =>
@@ -178,6 +159,9 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                     b.Property<int>("CargoID")
                         .HasColumnType("int");
 
+                    b.Property<bool>("Gestor")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Matricula")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -276,16 +260,13 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                     b.Property<DateTime?>("DataAvaliacao")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("GestorID")
-                        .HasColumnType("int");
-
                     b.Property<double?>("NotaAutoAvaliacao")
                         .HasColumnType("float");
 
                     b.Property<double?>("NotaAvaliacao")
                         .HasColumnType("float");
 
-                    b.Property<int>("PeriodoID")
+                    b.Property<int?>("PeriodoID")
                         .HasColumnType("int");
 
                     b.Property<int>("ProfissionalID")
@@ -298,8 +279,6 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ResultadoAvaliacaoID");
-
-                    b.HasIndex("GestorID");
 
                     b.HasIndex("PeriodoID");
 
@@ -389,17 +368,6 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                     b.Navigation("TipoCargo");
                 });
 
-            modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Gestores", b =>
-                {
-                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Profissionais", "Profissional")
-                        .WithOne("Gestor")
-                        .HasForeignKey("SistemaAvaliacaoDeProfissionais.Models.Gestores", "ProfissionalID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Profissional");
-                });
-
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.PeriodoAvaliacao", b =>
                 {
                     b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Periodos", "Periodo")
@@ -487,15 +455,9 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.ResultadoAvaliacao", b =>
                 {
-                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Gestores", "Gestor")
-                        .WithMany()
-                        .HasForeignKey("GestorID");
-
                     b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Periodos", "Periodo")
                         .WithMany()
-                        .HasForeignKey("PeriodoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PeriodoID");
 
                     b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Profissionais", "Profissional")
                         .WithMany()
@@ -503,17 +465,9 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Gestor");
-
                     b.Navigation("Periodo");
 
                     b.Navigation("Profissional");
-                });
-
-            modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Profissionais", b =>
-                {
-                    b.Navigation("Gestor")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

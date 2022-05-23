@@ -8,18 +8,19 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class Profissionais
     {
         [Key]
-        public int ProfissionalID { get; set; }
-        public string? Nome { get; set; } 
-        public string? UserName { get; set; }
-        public string? Senha { get; set; }
-        public string Matricula { get; set; }
-        [ForeignKey("SetorID")]
-        public Setores Setor { get; set; }
-        [ForeignKey("CargoID")]
-        public Cargo Cargo { get; set; }
-        public DateTime Admissao { get; set; }
-        public Gestores Gestor { get; set; }
-        [ForeignKey("StatusAvaliacaoID")]
-        public StatusAvaliacao StatusAvaliacao { get; set; }
+        public string? profissionalID { get; set; }
+        public string? nome { get; set; } 
+        public string? userName { get; set; }
+        public string? senha { get; set; }
+        public string? matricula { get; set; }
+        //[ForeignKey("SetorID")]
+        //public string? setor { get; set; }
+
+        [ForeignKey("CargoID")]       
+        public Cargo? cargo { get; set; }
+        public string? admissao { get; set; }
+        //[ForeignKey("StatusAvaliacaoID")]
+        //public string? statusAvaliacao { get; set; }
+        public bool gestor { get; set; }
     }
 }

@@ -16,40 +16,73 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
             _context = context;
         }
 
-
         [HttpGet]
-        public IEnumerable<Profissionais> Get()
+        public IEnumerable<object> Obter()
         {
-            List<Profissionais> profissionais = _context.Profissionais.ToList();
+            List<Profissionais> profissionais = _context.Profissionais/*.Include(x => x.cargo)*//*.Include(x => x.setor).Include(x => x.statusAvaliacao)*/.ToList();
 
-            return _context.Profissionais.ToList();
+            List<object> profissionaisObject = new List<object>();
+
+            foreach (var item in profissionais)
+            {
+                object profissional = new { ProfissionalID = item.profissionalID,
+                                            Nome = item.nome,
+                                            UserName = item.userName,
+                                            Senha= item.senha,
+                                            Matricula = item.matricula,
+                                            //Setor = item.setor/*.nomeSetor*/,
+                                            //Cargo = item.cargo/*.nomeCargo*/,
+                                            //Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
+                                            //Gestor = item.gestor,
+                                            //StatusAvaliacao = item.statusAvaliacao/*.nomeStatusAvaliacao*/
+                };
+
+                profissionaisObject.Add(profissional);
+            }
+
+            return profissionaisObject;
         }
 
+        [HttpPost]
+        public IActionResult Post([FromBody]Profissionais profissional)
+        {
+            _context.Profissionais.Add(profissional);
+            _context.SaveChanges();
+
+            return Ok();
+        }
+
+        [HttpGet("{id}")]
+        public IEnumerable<object> ObterPorID(int id)
+        {
+            List<Profissionais> profissionais = _context.Profissionais/*.Where(x => x.profissionalID == id)*//*.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao)*/.ToList();
+
+            List<object> profissionaisObject = new List<object>();
+
+            foreach (var item in profissionais)
+            {
+                object profissional = new
+                {
+                    ProfissionalID = item.profissionalID,
+                    Nome = item.nome,
+                    UserName = item.userName,
+                    Senha = item.senha,
+                    Matricula = item.matricula,
+                    //Setor = item.setor/*.nomeSetor*/,
+                    //Cargo = item.cargo/*.nomeCargo*/,
+                    //Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
+                    //Gestor = item.gestor,
+                    //StatusAvaliacao = item.statusAvaliacao/*.nomeStatusAvaliacao*/
+                };
+
+                profissionaisObject.Add(profissional);
+            }
+
+            return profissionaisObject;
+        }
+
+        
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //[HttpGet]
-        //public IEnumerable<Profissionais> Get()
-        //{
-        //    return Enumerable.Range(1, 5).Select(index => new Profissionais
-        //    {
-        //        //Date = DateTime.Now.AddDays(index),
-        //        //TemperatureC = Random.Shared.Next(-20, 55),
-        //        //Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        //    })
-        //    .ToArray();
-        //}
     }
 }

@@ -21,6 +21,5 @@ namespace SistemaAvaliacaoDeProfissionais.Models
         public DbSet<StatusAvaliacao> StatusAvaliacoes { get; set; }
         public DbSet<TipoCargo> TipoCargos { get; set; }
         public DbSet<UsuariosExclusivos> UsuariosExclusivos { get; set; }
-        public DbSet<Gestores> Gestores { get; set; }
     }
 }

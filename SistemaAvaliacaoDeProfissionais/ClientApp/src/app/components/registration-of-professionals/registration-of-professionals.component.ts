@@ -1,9 +1,13 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { error } from '@angular/compiler/src/util';
 import { Inject } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { Professional } from '../../models/professional.model';
+import { Cargo } from '../../models/cargo.model';
+import { Profissionais } from '../../models/profissionais.model';
+import { Setores } from '../../models/setores.model';
+import { StatusAvaliacao } from '../../models/statusAvaliacao.model';
+import { TipoCargo } from '../../models/tipoCargo.model';
 
 @Component({
   selector: 'app-registration-of-professionals',
@@ -12,28 +16,69 @@ import { Professional } from '../../models/professional.model';
 })
 export class RegistrationOfProfessionalsComponent implements OnInit {
 
-  //public professionals: Professional[] = [];
-
   columnsToDisplay = ['ProfissionalID', 'Nome', 'Admissao', 'Cargo', 'Setor'];
-  professionalsDataArray: Professional[] = [];
+  professionalsDataArray: Profissionais[] = [];
 
-  constructor(private router: Router, private http: HttpClient, @Inject('BASE_URL') private baseUrl: string) {
-    http.get<Professional[]>(baseUrl + 'profissionais').subscribe(result => {
+  tipoCargo: TipoCargo = {
+    tipoCargoID: 1,
+    nomeTipoCargo: "teste"
+  }
 
-      console.log(result);
-      this.professionalsDataArray = result;
-      //this.professionals = result;
-    }, error => console.error(error));
+  cargo: Cargo = {
+    cargoID: 1,
+    nomeCargo: "teste",
+    tipoCargo: this.tipoCargo
+  }
+
+  setor: Setores = {
+    setorID: 1,
+    nomeSetor: "teste"
+  }
+
+  statusAvaliacao: StatusAvaliacao = {
+    statusAvaliacaoID: 1,
+    nomeStatusAvaliacao: "teste"
+  }
+
+  profissional: Profissionais = {
+    admissao: "01/11/91",
+    cargo: this.cargo,
+    gestor: true,
+    matricula: "123",
+    nome: "ze",
+    profissionalID: '1',
+    senha: "123",
+    //setor: this.setor,
+    //statusAvaliacao: this.statusAvaliacao,
+    userName: "bah"
+  }
+
+  constructor(private router: Router,
+              private http: HttpClient,
+              @Inject('BASE_URL') private baseUrl: string) {
+    //this.http.post(this.baseUrl + 'profissionais', this.profissional).subscribe(data => {
+
+    //})
   }
 
   ngOnInit(): void {
 
-    
-    
+    console.log(this.profissional);
+
+    const httpHeaders = new HttpHeaders();
+    httpHeaders.set('Content-Type', 'application/x-www-form-urlencoded');
+
+    this.http.post(this.baseUrl + 'profissionais', this.profissional, { headers: httpHeaders }).subscribe(result => {
+      //this.professionalsDataArray = result;
+    }, error => console.error(error));
+
+    //this.http.get<Profissionais[]>(this.baseUrl + 'profissionais').subscribe(result => {
+    //  this.professionalsDataArray = result;
+    //}, error => console.error(error));
+
 
   }
 
-  
 
   navigateToCreateProfessional(): void {
     this.router.navigate(["createProfessional"]);

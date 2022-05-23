@@ -16,9 +16,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
         public DateTime? DataAutoAvaliacao { get; set; }
         public DateTime? DataAvaliacao { get; set; }
         [ForeignKey("PeriodoID")]
-        public Periodos Periodo { get; set; }
-        [ForeignKey("GestorID")]
-        public Gestores? Gestor { get; set; }
+        public Periodos? Periodo { get; set; }
         public string? RespostasAutoAvaliacao { get; set; }
         public string? RespostasAvaliacao { get; set; }
     }

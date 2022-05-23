@@ -7,7 +7,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class TipoCargo
     {
         [Key]
-        public int TipoCargoID { get; set; }
-        public string NomeTipoCargo { get; set; }
+        public int tipoCargoID { get; set; }
+        public string nomeTipoCargo { get; set; }
     }
 }

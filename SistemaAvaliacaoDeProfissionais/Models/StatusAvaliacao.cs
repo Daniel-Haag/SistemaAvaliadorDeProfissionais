@@ -6,8 +6,8 @@ namespace SistemaAvaliacaoDeProfissionais.Models
 {
     public class StatusAvaliacao
     {
-        public int StatusAvaliacaoID { get; set; }
-        public string NomeStatusAvaliacao { get; set; }
+        public int statusAvaliacaoID { get; set; }
+        public string nomeStatusAvaliacao { get; set; }
 
     }
 }
