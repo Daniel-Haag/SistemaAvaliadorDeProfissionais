@@ -46,10 +46,10 @@ export class RegistrationOfProfessionalsComponent implements OnInit {
     gestor: true,
     matricula: "123",
     nome: "ze",
-    profissionalID: '1',
+    profissionalID: 1,
     senha: "123",
-    //setor: this.setor,
-    //statusAvaliacao: this.statusAvaliacao,
+    setor: this.setor,
+    statusAvaliacao: this.statusAvaliacao,
     userName: "bah"
   }
 

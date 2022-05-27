@@ -8,6 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class PlanoDeAcao
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int PlanoDeAcaoID { get; set; }
         //[ForeignKey("ProfissionalID")]
         public Profissionais Profissional { get; set; }

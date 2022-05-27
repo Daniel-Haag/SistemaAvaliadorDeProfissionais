@@ -19,7 +19,7 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
         [HttpGet]
         public IEnumerable<object> Obter()
         {
-            List<Profissionais> profissionais = _context.Profissionais/*.Include(x => x.cargo)*//*.Include(x => x.setor).Include(x => x.statusAvaliacao)*/.ToList();
+            List<Profissionais> profissionais = _context.Profissionais.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
 
             List<object> profissionaisObject = new List<object>();
 
@@ -30,11 +30,11 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
                                             UserName = item.userName,
                                             Senha= item.senha,
                                             Matricula = item.matricula,
-                                            //Setor = item.setor/*.nomeSetor*/,
-                                            //Cargo = item.cargo/*.nomeCargo*/,
-                                            //Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
-                                            //Gestor = item.gestor,
-                                            //StatusAvaliacao = item.statusAvaliacao/*.nomeStatusAvaliacao*/
+                                            Setor = item.setor.nomeSetor ?? "",
+                                            Cargo = item.cargo.nomeCargo ?? "",
+                                            Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
+                                            Gestor = item.gestor,
+                                            StatusAvaliacao = item.statusAvaliacao/*.nomeStatusAvaliacao*/
                 };
 
                 profissionaisObject.Add(profissional);
@@ -46,16 +46,27 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]Profissionais profissional)
         {
-            _context.Profissionais.Add(profissional);
-            _context.SaveChanges();
-
+            try
+            {
+                _context.Profissionais.Add(profissional);
+                _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                string erro = e.Message;
+            }
+            finally
+            {
+                //_context.Database.CloseConnection();
+            }
+           
             return Ok();
         }
 
         [HttpGet("{id}")]
         public IEnumerable<object> ObterPorID(int id)
         {
-            List<Profissionais> profissionais = _context.Profissionais/*.Where(x => x.profissionalID == id)*//*.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao)*/.ToList();
+            List<Profissionais> profissionais = _context.Profissionais.Where(x => x.profissionalID == id).Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
 
             List<object> profissionaisObject = new List<object>();
 
@@ -68,11 +79,11 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
                     UserName = item.userName,
                     Senha = item.senha,
                     Matricula = item.matricula,
-                    //Setor = item.setor/*.nomeSetor*/,
-                    //Cargo = item.cargo/*.nomeCargo*/,
-                    //Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
-                    //Gestor = item.gestor,
-                    //StatusAvaliacao = item.statusAvaliacao/*.nomeStatusAvaliacao*/
+                    Setor = item.setor.nomeSetor ?? "",
+                    Cargo = item.cargo.nomeCargo ?? "",
+                    Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
+                    Gestor = item.gestor,
+                    StatusAvaliacao = item.statusAvaliacao.nomeStatusAvaliacao ?? ""
                 };
 
                 profissionaisObject.Add(profissional);

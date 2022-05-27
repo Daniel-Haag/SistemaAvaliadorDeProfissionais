@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SistemaAvaliacaoDeProfissionais.Migrations
 {
-    public partial class teste1 : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,8 +13,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "Periodos",
                 columns: table => new
                 {
-                    PeriodoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PeriodoID = table.Column<int>(type: "int", nullable: false),
                     CodigoPeriodo = table.Column<int>(type: "int", nullable: false),
                     Periodo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -24,71 +23,46 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Profissionais",
-                columns: table => new
-                {
-                    ProfissionalID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Matricula = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    SetorID = table.Column<int>(type: "int", nullable: false),
-                    CargoID = table.Column<int>(type: "int", nullable: false),
-                    Admissao = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    StatusAvaliacaoID = table.Column<int>(type: "int", nullable: false),
-                    Gestor = table.Column<bool>(type: "bit", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Profissionais", x => x.ProfissionalID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Setores",
                 columns: table => new
                 {
-                    SetorID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeSetor = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    setorID = table.Column<int>(type: "int", nullable: false),
+                    nomeSetor = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Setores", x => x.SetorID);
+                    table.PrimaryKey("PK_Setores", x => x.setorID);
                 });
 
             migrationBuilder.CreateTable(
                 name: "StatusAvaliacoes",
                 columns: table => new
                 {
-                    StatusAvaliacaoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeStatusAvaliacao = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    statusAvaliacaoID = table.Column<int>(type: "int", nullable: false),
+                    nomeStatusAvaliacao = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_StatusAvaliacoes", x => x.StatusAvaliacaoID);
+                    table.PrimaryKey("PK_StatusAvaliacoes", x => x.statusAvaliacaoID);
                 });
 
             migrationBuilder.CreateTable(
                 name: "TipoCargos",
                 columns: table => new
                 {
-                    TipoCargoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeTipoCargo = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    tipoCargoID = table.Column<int>(type: "int", nullable: false),
+                    nomeTipoCargo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TipoCargos", x => x.TipoCargoID);
+                    table.PrimaryKey("PK_TipoCargos", x => x.tipoCargoID);
                 });
 
             migrationBuilder.CreateTable(
                 name: "UsuariosExclusivos",
                 columns: table => new
                 {
-                    UsuarioExclusivoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UsuarioExclusivoID = table.Column<int>(type: "int", nullable: false),
                     UsuarioLogin = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Senha = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -98,11 +72,82 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Cargos",
+                columns: table => new
+                {
+                    cargoID = table.Column<int>(type: "int", nullable: false),
+                    nomeCargo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TipoCargoID = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cargos", x => x.cargoID);
+                    table.ForeignKey(
+                        name: "FK_Cargos_TipoCargos_TipoCargoID",
+                        column: x => x.TipoCargoID,
+                        principalTable: "TipoCargos",
+                        principalColumn: "tipoCargoID");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Questionarios",
+                columns: table => new
+                {
+                    QuestaoID = table.Column<int>(type: "int", nullable: false),
+                    Questao = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TituloQuestao = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    TipoCargoID = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Questionarios", x => x.QuestaoID);
+                    table.ForeignKey(
+                        name: "FK_Questionarios_TipoCargos_TipoCargoID",
+                        column: x => x.TipoCargoID,
+                        principalTable: "TipoCargos",
+                        principalColumn: "tipoCargoID");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Profissionais",
+                columns: table => new
+                {
+                    profissionalID = table.Column<int>(type: "int", nullable: false),
+                    nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    userName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    senha = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    matricula = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SetorID = table.Column<int>(type: "int", nullable: true),
+                    CargoID = table.Column<int>(type: "int", nullable: true),
+                    admissao = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    StatusAvaliacaoID = table.Column<int>(type: "int", nullable: true),
+                    gestor = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Profissionais", x => x.profissionalID);
+                    table.ForeignKey(
+                        name: "FK_Profissionais_Cargos_CargoID",
+                        column: x => x.CargoID,
+                        principalTable: "Cargos",
+                        principalColumn: "cargoID");
+                    table.ForeignKey(
+                        name: "FK_Profissionais_Setores_SetorID",
+                        column: x => x.SetorID,
+                        principalTable: "Setores",
+                        principalColumn: "setorID");
+                    table.ForeignKey(
+                        name: "FK_Profissionais_StatusAvaliacoes_StatusAvaliacaoID",
+                        column: x => x.StatusAvaliacaoID,
+                        principalTable: "StatusAvaliacoes",
+                        principalColumn: "statusAvaliacaoID");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "PeriodosAvaliacao",
                 columns: table => new
                 {
-                    PeriodoAvaliacaoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    PeriodoAvaliacaoID = table.Column<int>(type: "int", nullable: false),
                     PeriodoID = table.Column<int>(type: "int", nullable: false),
                     ProfissionalID = table.Column<int>(type: "int", nullable: false),
                     DataInicioAvaliacao = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -125,7 +170,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                         name: "FK_PeriodosAvaliacao_Profissionais_ProfissionalID",
                         column: x => x.ProfissionalID,
                         principalTable: "Profissionais",
-                        principalColumn: "ProfissionalID",
+                        principalColumn: "profissionalID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -133,9 +178,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "PlanosDeAcao",
                 columns: table => new
                 {
-                    PlanoDeAcaoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ProfissionalID = table.Column<int>(type: "int", nullable: false),
+                    PlanoDeAcaoID = table.Column<int>(type: "int", nullable: false),
+                    profissionalID = table.Column<int>(type: "int", nullable: false),
                     TextoQuestao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TextoPlanoDeAcao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PeriodoID = table.Column<int>(type: "int", nullable: false),
@@ -153,10 +197,10 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                         principalColumn: "PeriodoID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_PlanosDeAcao_Profissionais_ProfissionalID",
-                        column: x => x.ProfissionalID,
+                        name: "FK_PlanosDeAcao_Profissionais_profissionalID",
+                        column: x => x.profissionalID,
                         principalTable: "Profissionais",
-                        principalColumn: "ProfissionalID",
+                        principalColumn: "profissionalID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -164,8 +208,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "ResultadoAvaliacoes",
                 columns: table => new
                 {
-                    ResultadoAvaliacaoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ResultadoAvaliacaoID = table.Column<int>(type: "int", nullable: false),
                     ProfissionalID = table.Column<int>(type: "int", nullable: false),
                     NotaAutoAvaliacao = table.Column<double>(type: "float", nullable: true),
                     NotaAvaliacao = table.Column<double>(type: "float", nullable: true),
@@ -187,55 +230,15 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                         name: "FK_ResultadoAvaliacoes_Profissionais_ProfissionalID",
                         column: x => x.ProfissionalID,
                         principalTable: "Profissionais",
-                        principalColumn: "ProfissionalID",
+                        principalColumn: "profissionalID",
                         onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Cargos",
-                columns: table => new
-                {
-                    CargoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeCargo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TipoCargoID = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Cargos", x => x.CargoID);
-                    table.ForeignKey(
-                        name: "FK_Cargos_TipoCargos_TipoCargoID",
-                        column: x => x.TipoCargoID,
-                        principalTable: "TipoCargos",
-                        principalColumn: "TipoCargoID");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Questionarios",
-                columns: table => new
-                {
-                    QuestaoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Questao = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TituloQuestao = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TipoCargoID = table.Column<int>(type: "int", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Questionarios", x => x.QuestaoID);
-                    table.ForeignKey(
-                        name: "FK_Questionarios_TipoCargos_TipoCargoID",
-                        column: x => x.TipoCargoID,
-                        principalTable: "TipoCargos",
-                        principalColumn: "TipoCargoID");
                 });
 
             migrationBuilder.CreateTable(
                 name: "RegistroDeAdvertencias",
                 columns: table => new
                 {
-                    RegistroDeAdvertenciasID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RegistroDeAdvertenciasID = table.Column<int>(type: "int", nullable: false),
                     DataAdvertencia = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CaminhoArquivo = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -273,9 +276,24 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 column: "PeriodoID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_PlanosDeAcao_ProfissionalID",
+                name: "IX_PlanosDeAcao_profissionalID",
                 table: "PlanosDeAcao",
-                column: "ProfissionalID");
+                column: "profissionalID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Profissionais_CargoID",
+                table: "Profissionais",
+                column: "CargoID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Profissionais_SetorID",
+                table: "Profissionais",
+                column: "SetorID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Profissionais_StatusAvaliacaoID",
+                table: "Profissionais",
+                column: "StatusAvaliacaoID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Questionarios_TipoCargoID",
@@ -301,9 +319,6 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Cargos");
-
-            migrationBuilder.DropTable(
                 name: "PlanosDeAcao");
 
             migrationBuilder.DropTable(
@@ -316,16 +331,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "ResultadoAvaliacoes");
 
             migrationBuilder.DropTable(
-                name: "Setores");
-
-            migrationBuilder.DropTable(
-                name: "StatusAvaliacoes");
-
-            migrationBuilder.DropTable(
                 name: "UsuariosExclusivos");
-
-            migrationBuilder.DropTable(
-                name: "TipoCargos");
 
             migrationBuilder.DropTable(
                 name: "PeriodosAvaliacao");
@@ -335,6 +341,18 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
             migrationBuilder.DropTable(
                 name: "Profissionais");
+
+            migrationBuilder.DropTable(
+                name: "Cargos");
+
+            migrationBuilder.DropTable(
+                name: "Setores");
+
+            migrationBuilder.DropTable(
+                name: "StatusAvaliacoes");
+
+            migrationBuilder.DropTable(
+                name: "TipoCargos");
         }
     }
 }

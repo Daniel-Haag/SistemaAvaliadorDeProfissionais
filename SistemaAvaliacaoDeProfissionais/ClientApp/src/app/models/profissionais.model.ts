@@ -3,14 +3,14 @@ import { Setores } from "./setores.model";
 import { StatusAvaliacao } from "./statusAvaliacao.model";
 
 export interface Profissionais {
-  profissionalID: string
+  profissionalID: number
   nome: string
   userName: string
   senha: string
   matricula: string
-  //setor: Setores
+  setor: Setores
   cargo: Cargo
   admissao: string
-  //statusAvaliacao: StatusAvaliacao
+  statusAvaliacao: StatusAvaliacao
   gestor: boolean
 }

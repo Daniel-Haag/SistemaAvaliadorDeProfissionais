@@ -12,8 +12,8 @@ using SistemaAvaliacaoDeProfissionais.Models;
 namespace SistemaAvaliacaoDeProfissionais.Migrations
 {
     [DbContext(typeof(MainDbContext))]
-    [Migration("20220513022219_teste2")]
-    partial class teste2
+    [Migration("20220527020421_inicial")]
+    partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -26,20 +26,17 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Cargo", b =>
                 {
-                    b.Property<int>("CargoID")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("cargoID")
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CargoID"), 1L, 1);
-
-                    b.Property<string>("NomeCargo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("TipoCargoID")
                         .HasColumnType("int");
 
-                    b.HasKey("CargoID");
+                    b.Property<string>("nomeCargo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("cargoID");
 
                     b.HasIndex("TipoCargoID");
 
@@ -49,10 +46,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.PeriodoAvaliacao", b =>
                 {
                     b.Property<int>("PeriodoAvaliacaoID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PeriodoAvaliacaoID"), 1L, 1);
 
                     b.Property<bool>("AvaliacaoExpirada")
                         .HasColumnType("bit");
@@ -90,10 +84,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Periodos", b =>
                 {
                     b.Property<int>("PeriodoID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PeriodoID"), 1L, 1);
 
                     b.Property<int>("CodigoPeriodo")
                         .HasColumnType("int");
@@ -110,10 +101,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.PlanoDeAcao", b =>
                 {
                     b.Property<int>("PlanoDeAcaoID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PlanoDeAcaoID"), 1L, 1);
 
                     b.Property<string>("ConsideracoesDoColaboradorAvaliado")
                         .HasColumnType("nvarchar(max)");
@@ -122,9 +110,6 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("PeriodoID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProfissionalID")
                         .HasColumnType("int");
 
                     b.Property<string>("ResultadoDaAcaoProposta")
@@ -136,52 +121,51 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                     b.Property<string>("TextoQuestao")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("profissionalID")
+                        .HasColumnType("int");
+
                     b.HasKey("PlanoDeAcaoID");
 
                     b.HasIndex("PeriodoID");
 
-                    b.HasIndex("ProfissionalID");
+                    b.HasIndex("profissionalID");
 
                     b.ToTable("PlanosDeAcao");
                 });
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Profissionais", b =>
                 {
-                    b.Property<int>("ProfissionalID")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int?>("profissionalID")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProfissionalID"), 1L, 1);
-
-                    b.Property<DateTime>("Admissao")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("CargoID")
+                    b.Property<int?>("CargoID")
                         .HasColumnType("int");
 
-                    b.Property<bool>("Gestor")
+                    b.Property<int?>("SetorID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("StatusAvaliacaoID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("admissao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("gestor")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Matricula")
-                        .IsRequired()
+                    b.Property<string>("matricula")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Senha")
+                    b.Property<string>("senha")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("SetorID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StatusAvaliacaoID")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserName")
+                    b.Property<string>("userName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ProfissionalID");
+                    b.HasKey("profissionalID");
 
                     b.HasIndex("CargoID");
 
@@ -195,10 +179,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Questionario", b =>
                 {
                     b.Property<int>("QuestaoID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("QuestaoID"), 1L, 1);
 
                     b.Property<string>("Questao")
                         .IsRequired()
@@ -221,10 +202,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.RegistroDeAdvertencias", b =>
                 {
                     b.Property<int>("RegistroDeAdvertenciasID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistroDeAdvertenciasID"), 1L, 1);
 
                     b.Property<string>("CaminhoArquivo")
                         .IsRequired()
@@ -249,10 +227,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.ResultadoAvaliacao", b =>
                 {
                     b.Property<int>("ResultadoAvaliacaoID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ResultadoAvaliacaoID"), 1L, 1);
 
                     b.Property<DateTime?>("DataAutoAvaliacao")
                         .HasColumnType("datetime2");
@@ -289,51 +264,42 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Setores", b =>
                 {
-                    b.Property<int>("SetorID")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("setorID")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SetorID"), 1L, 1);
-
-                    b.Property<string>("NomeSetor")
+                    b.Property<string>("nomeSetor")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("SetorID");
+                    b.HasKey("setorID");
 
                     b.ToTable("Setores");
                 });
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.StatusAvaliacao", b =>
                 {
-                    b.Property<int>("StatusAvaliacaoID")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("statusAvaliacaoID")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StatusAvaliacaoID"), 1L, 1);
-
-                    b.Property<string>("NomeStatusAvaliacao")
+                    b.Property<string>("nomeStatusAvaliacao")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("StatusAvaliacaoID");
+                    b.HasKey("statusAvaliacaoID");
 
                     b.ToTable("StatusAvaliacoes");
                 });
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.TipoCargo", b =>
                 {
-                    b.Property<int>("TipoCargoID")
-                        .ValueGeneratedOnAdd()
+                    b.Property<int>("tipoCargoID")
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TipoCargoID"), 1L, 1);
-
-                    b.Property<string>("NomeTipoCargo")
+                    b.Property<string>("nomeTipoCargo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("TipoCargoID");
+                    b.HasKey("tipoCargoID");
 
                     b.ToTable("TipoCargos");
                 });
@@ -341,10 +307,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.UsuariosExclusivos", b =>
                 {
                     b.Property<int>("UsuarioExclusivoID")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UsuarioExclusivoID"), 1L, 1);
 
                     b.Property<string>("Senha")
                         .IsRequired()
@@ -361,11 +324,11 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Cargo", b =>
                 {
-                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.TipoCargo", "TipoCargo")
+                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.TipoCargo", "tipoCargo")
                         .WithMany()
                         .HasForeignKey("TipoCargoID");
 
-                    b.Navigation("TipoCargo");
+                    b.Navigation("tipoCargo");
                 });
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.PeriodoAvaliacao", b =>
@@ -397,7 +360,7 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
                     b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Profissionais", "Profissional")
                         .WithMany()
-                        .HasForeignKey("ProfissionalID")
+                        .HasForeignKey("profissionalID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -408,29 +371,23 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Profissionais", b =>
                 {
-                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Cargo", "Cargo")
+                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Cargo", "cargo")
                         .WithMany()
-                        .HasForeignKey("CargoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CargoID");
 
-                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Setores", "Setor")
+                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.Setores", "setor")
                         .WithMany()
-                        .HasForeignKey("SetorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SetorID");
 
-                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.StatusAvaliacao", "StatusAvaliacao")
+                    b.HasOne("SistemaAvaliacaoDeProfissionais.Models.StatusAvaliacao", "statusAvaliacao")
                         .WithMany()
-                        .HasForeignKey("StatusAvaliacaoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("StatusAvaliacaoID");
 
-                    b.Navigation("Cargo");
+                    b.Navigation("cargo");
 
-                    b.Navigation("Setor");
+                    b.Navigation("setor");
 
-                    b.Navigation("StatusAvaliacao");
+                    b.Navigation("statusAvaliacao");
                 });
 
             modelBuilder.Entity("SistemaAvaliacaoDeProfissionais.Models.Questionario", b =>
