@@ -19,28 +19,39 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
         [HttpGet]
         public IEnumerable<object> Obter()
         {
-            List<Profissionais> profissionais = _context.Profissionais.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
-
-            List<object> profissionaisObject = new List<object>();
-
-            foreach (var item in profissionais)
+            try
             {
-                object profissional = new { ProfissionalID = item.profissionalID,
-                                            Nome = item.nome,
-                                            UserName = item.userName,
-                                            Senha= item.senha,
-                                            Matricula = item.matricula,
-                                            Setor = item.setor.nomeSetor ?? "",
-                                            Cargo = item.cargo.nomeCargo ?? "",
-                                            Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
-                                            Gestor = item.gestor,
-                                            StatusAvaliacao = item.statusAvaliacao/*.nomeStatusAvaliacao*/
-                };
+                List<Profissionais> profissionais = _context.Profissionais.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
 
-                profissionaisObject.Add(profissional);
+                List<object> profissionaisObject = new List<object>();
+
+                foreach (var item in profissionais)
+                {
+                    object profissional = new
+                    {
+                        ProfissionalID = item.profissionalID,
+                        Nome = item.nome,
+                        UserName = item.userName,
+                        Senha = item.senha,
+                        Matricula = item.matricula,
+                        Setor = item.setor.nomeSetor ?? "",
+                        Cargo = item.cargo.nomeCargo ?? "",
+                        Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
+                        Gestor = item.gestor,
+                        StatusAvaliacao = item.statusAvaliacao.nomeStatusAvaliacao ?? ""
+                    };
+
+                    profissionaisObject.Add(profissional);
+                }
+
+                return profissionaisObject;
+            }
+            catch (Exception e)
+            {
+                string erro = e.Message;
             }
 
-            return profissionaisObject;
+            return null;
         }
 
         [HttpPost]
@@ -54,10 +65,6 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
             catch (Exception e)
             {
                 string erro = e.Message;
-            }
-            finally
-            {
-                //_context.Database.CloseConnection();
             }
            
             return Ok();

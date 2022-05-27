@@ -8,6 +8,7 @@ import { Profissionais } from '../../models/profissionais.model';
 import { Setores } from '../../models/setores.model';
 import { StatusAvaliacao } from '../../models/statusAvaliacao.model';
 import { TipoCargo } from '../../models/tipoCargo.model';
+import { ProfissionaisService } from '../../services/profissionais.service';
 
 @Component({
   selector: 'app-registration-of-professionals',
@@ -54,23 +55,20 @@ export class RegistrationOfProfessionalsComponent implements OnInit {
   }
 
   constructor(private router: Router,
-              private http: HttpClient,
-              @Inject('BASE_URL') private baseUrl: string) {
-    //this.http.post(this.baseUrl + 'profissionais', this.profissional).subscribe(data => {
+    private profissionaisService: ProfissionaisService
+  ) {
 
-    //})
   }
 
   ngOnInit(): void {
 
-    console.log(this.profissional);
+    //this.profissionaisService.CadastrarProfissional(this.profissional);
 
-    const httpHeaders = new HttpHeaders();
-    httpHeaders.set('Content-Type', 'application/x-www-form-urlencoded');
 
-    this.http.post(this.baseUrl + 'profissionais', this.profissional, { headers: httpHeaders }).subscribe(result => {
-      //this.professionalsDataArray = result;
-    }, error => console.error(error));
+
+    this.professionalsDataArray = this.profissionaisService.ObterProfissionais();
+
+    console.log('teste' + this.professionalsDataArray);
 
     //this.http.get<Profissionais[]>(this.baseUrl + 'profissionais').subscribe(result => {
     //  this.professionalsDataArray = result;
@@ -79,6 +77,11 @@ export class RegistrationOfProfessionalsComponent implements OnInit {
 
   }
 
+
+
+  CadastrarProfissional(): void {
+    this.profissionaisService.CadastrarProfissional(this.profissional);
+  }
 
   navigateToCreateProfessional(): void {
     this.router.navigate(["createProfessional"]);
