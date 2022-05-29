@@ -5,23 +5,23 @@
 <table class="margin" mat-table [dataSource]="professionalsDataArray">
   <ng-container matColumnDef="ProfissionalID">
     <th mat-header-cell *matHeaderCellDef> ID </th>
-    <td mat-cell *matCellDef="let professional"> {{professional.profissionalID}} </td>
+    <td mat-cell *matCellDef="let profissional"> {{profissional.profissionalID}} </td>
   </ng-container>
   <ng-container matColumnDef="Nome">
     <th mat-header-cell *matHeaderCellDef> Nome </th>
-    <td mat-cell *matCellDef="let professional"> {{professional.nome}} </td>
+    <td mat-cell *matCellDef="let profissional"> {{profissional.nome}} </td>
   </ng-container>
   <ng-container matColumnDef="Admissao">
     <th mat-header-cell *matHeaderCellDef> Admissao </th>
-    <td mat-cell *matCellDef="let professional"> {{professional.admissao}} </td>
+    <td mat-cell *matCellDef="let profissional"> {{profissional.admissao}} </td>
   </ng-container>
   <ng-container matColumnDef="Cargo">
     <th mat-header-cell *matHeaderCellDef> Cargo </th>
-    <td mat-cell *matCellDef="let professional"> {{professional.cargo}} </td>
+    <td mat-cell *matCellDef="let profissional"> {{profissional.cargo.nomeCargo}} </td>
   </ng-container>
   <ng-container matColumnDef="Setor">
     <th mat-header-cell *matHeaderCellDef> Setor </th>
-    <td mat-cell *matCellDef="let professional"> {{professional.setor}} </td>
+    <td mat-cell *matCellDef="let profissional"> {{profissional.setor.nomeSetor}} </td>
   </ng-container>
   <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
   <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>

@@ -17,34 +17,34 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<object> Obter()
+        public IEnumerable<Profissionais> Obter()
         {
             try
             {
                 List<Profissionais> profissionais = _context.Profissionais.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
 
-                List<object> profissionaisObject = new List<object>();
+                //List<object> profissionaisObject = new List<object>();
 
-                foreach (var item in profissionais)
-                {
-                    object profissional = new
-                    {
-                        ProfissionalID = item.profissionalID,
-                        Nome = item.nome,
-                        UserName = item.userName,
-                        Senha = item.senha,
-                        Matricula = item.matricula,
-                        Setor = item.setor.nomeSetor ?? "",
-                        Cargo = item.cargo.nomeCargo ?? "",
-                        Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
-                        Gestor = item.gestor,
-                        StatusAvaliacao = item.statusAvaliacao.nomeStatusAvaliacao ?? ""
-                    };
+                //foreach (var item in profissionais)
+                //{
+                //    object profissional = new
+                //    {
+                //        ProfissionalID = item.profissionalID,
+                //        Nome = item.nome,
+                //        UserName = item.userName,
+                //        Senha = item.senha,
+                //        Matricula = item.matricula,
+                //        Setor = item.setor.nomeSetor ?? "",
+                //        Cargo = item.cargo.nomeCargo ?? "",
+                //        Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
+                //        Gestor = item.gestor,
+                //        StatusAvaliacao = item.statusAvaliacao.nomeStatusAvaliacao ?? ""
+                //    };
 
-                    profissionaisObject.Add(profissional);
-                }
+                //    profissionaisObject.Add(profissional);
+                //}
 
-                return profissionaisObject;
+                return profissionais;
             }
             catch (Exception e)
             {

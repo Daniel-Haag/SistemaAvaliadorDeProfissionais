@@ -5,37 +5,37 @@
     <form>
       <mat-form-field>
         <mat-label>Nome</mat-label>
-        <input matInput placeholder="Nome completo" value="">
+        <input matInput placeholder="Nome completo" value="" [(ngModel)]="profissional.nome" name="nome">
       </mat-form-field>
       <mat-form-field>
         <mat-label>Nome de usuário</mat-label>
-        <input matInput placeholder="User name" value="">
+        <input matInput placeholder="User name" value="" [(ngModel)]="profissional.userName" name="userName">
       </mat-form-field>
       <mat-form-field>
         <mat-label>Senha</mat-label>
-        <input matInput placeholder="Senha de usuário" value="">
+        <input matInput placeholder="Senha de usuário" value="" [(ngModel)]="profissional.senha" name="senha">
       </mat-form-field>
       <mat-form-field>
         <mat-label>Matrícula</mat-label>
-        <input matInput placeholder="Matrícula" value="">
+        <input matInput placeholder="Matrícula" value="" [(ngModel)]="profissional.matricula" name="matricula">
       </mat-form-field>
       <mat-form-field>
         <mat-label>Setor</mat-label>
-        <input matInput placeholder="Setor" value="">
+        <input matInput placeholder="Setor" value="" [(ngModel)]="profissional.setor name="setor">
       </mat-form-field>
       <mat-form-field>
         <mat-label>Cargo</mat-label>
-        <input matInput placeholder="Cargo" value="">
+        <input matInput placeholder="Cargo" value="" [(ngModel)]="profissional.cargo" name="cargo">
       </mat-form-field>
       <mat-form-field>
         <mat-label>Admissão</mat-label>
-        <input matInput placeholder="Data da admissão" value="">
+        <input matInput placeholder="Data da admissão" value="" [(ngModel)]="profissional.admissao" name="admissao">
       </mat-form-field>
     </form>
-    <button color="primary" mat-raised-button (click)="create()">
+    <button color="primary" mat-raised-button (click)="CadastrarProfissional()">
       Salvar
     </button>
-    <button color="warn" mat-raised-button (click)="cancel()">
+    <button color="warn" mat-raised-button (click)="Cancelar()">
       Cancelar
     </button>
   </mat-card-content>
