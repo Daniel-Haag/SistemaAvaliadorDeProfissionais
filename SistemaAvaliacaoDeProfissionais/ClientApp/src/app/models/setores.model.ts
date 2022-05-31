@@ -1,5 +1,5 @@
 export interface Setores {
-  setorID: number
+  setorID?: number
   nomeSetor: string
   
 }

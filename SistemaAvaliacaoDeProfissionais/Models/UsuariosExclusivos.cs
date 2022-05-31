@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class UsuariosExclusivos
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int UsuarioExclusivoID { get; set; }
         public string UsuarioLogin { get; set; }
         public string Senha { get; set; }

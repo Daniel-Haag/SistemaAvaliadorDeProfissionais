@@ -13,7 +13,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "Periodos",
                 columns: table => new
                 {
-                    PeriodoID = table.Column<int>(type: "int", nullable: false),
+                    PeriodoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     CodigoPeriodo = table.Column<int>(type: "int", nullable: false),
                     Periodo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -26,7 +27,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "Setores",
                 columns: table => new
                 {
-                    setorID = table.Column<int>(type: "int", nullable: false),
+                    setorID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     nomeSetor = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -38,7 +40,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "StatusAvaliacoes",
                 columns: table => new
                 {
-                    statusAvaliacaoID = table.Column<int>(type: "int", nullable: false),
+                    statusAvaliacaoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     nomeStatusAvaliacao = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -50,7 +53,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "TipoCargos",
                 columns: table => new
                 {
-                    tipoCargoID = table.Column<int>(type: "int", nullable: false),
+                    tipoCargoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     nomeTipoCargo = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -62,7 +66,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "UsuariosExclusivos",
                 columns: table => new
                 {
-                    UsuarioExclusivoID = table.Column<int>(type: "int", nullable: false),
+                    UsuarioExclusivoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     UsuarioLogin = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Senha = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
@@ -75,7 +80,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "Cargos",
                 columns: table => new
                 {
-                    cargoID = table.Column<int>(type: "int", nullable: false),
+                    cargoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     nomeCargo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TipoCargoID = table.Column<int>(type: "int", nullable: true)
                 },
@@ -93,7 +99,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "Questionarios",
                 columns: table => new
                 {
-                    QuestaoID = table.Column<int>(type: "int", nullable: false),
+                    QuestaoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Questao = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TituloQuestao = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TipoCargoID = table.Column<int>(type: "int", nullable: true)
@@ -112,7 +119,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "Profissionais",
                 columns: table => new
                 {
-                    profissionalID = table.Column<int>(type: "int", nullable: false),
+                    profissionalID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     userName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     senha = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -147,7 +155,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "PeriodosAvaliacao",
                 columns: table => new
                 {
-                    PeriodoAvaliacaoID = table.Column<int>(type: "int", nullable: false),
+                    PeriodoAvaliacaoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     PeriodoID = table.Column<int>(type: "int", nullable: false),
                     ProfissionalID = table.Column<int>(type: "int", nullable: false),
                     DataInicioAvaliacao = table.Column<DateTime>(type: "datetime2", nullable: true),
@@ -178,7 +187,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "PlanosDeAcao",
                 columns: table => new
                 {
-                    PlanoDeAcaoID = table.Column<int>(type: "int", nullable: false),
+                    PlanoDeAcaoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     profissionalID = table.Column<int>(type: "int", nullable: false),
                     TextoQuestao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TextoPlanoDeAcao = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -208,7 +218,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "ResultadoAvaliacoes",
                 columns: table => new
                 {
-                    ResultadoAvaliacaoID = table.Column<int>(type: "int", nullable: false),
+                    ResultadoAvaliacaoID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     ProfissionalID = table.Column<int>(type: "int", nullable: false),
                     NotaAutoAvaliacao = table.Column<double>(type: "float", nullable: true),
                     NotaAvaliacao = table.Column<double>(type: "float", nullable: true),
@@ -238,7 +249,8 @@ namespace SistemaAvaliacaoDeProfissionais.Migrations
                 name: "RegistroDeAdvertencias",
                 columns: table => new
                 {
-                    RegistroDeAdvertenciasID = table.Column<int>(type: "int", nullable: false),
+                    RegistroDeAdvertenciasID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     DataAdvertencia = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CaminhoArquivo = table.Column<string>(type: "nvarchar(max)", nullable: false),

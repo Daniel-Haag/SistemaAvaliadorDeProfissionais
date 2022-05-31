@@ -8,8 +8,8 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class Profissionais
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int? profissionalID { get; set; }
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int profissionalID { get; set; }
         public string? nome { get; set; } 
         public string? userName { get; set; }
         public string? senha { get; set; }

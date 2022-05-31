@@ -1,4 +1,4 @@
 export interface TipoCargo {
-  tipoCargoID: number
+  tipoCargoID?: number
   nomeTipoCargo: string
 }

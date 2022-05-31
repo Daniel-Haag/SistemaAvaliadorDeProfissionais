@@ -1,4 +1,4 @@
 export interface StatusAvaliacao {
-  statusAvaliacaoID: number
+  statusAvaliacaoID?: number
   nomeStatusAvaliacao: string
 }

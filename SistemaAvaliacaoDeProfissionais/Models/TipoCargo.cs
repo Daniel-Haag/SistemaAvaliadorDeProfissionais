@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class TipoCargo
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int tipoCargoID { get; set; }
         public string nomeTipoCargo { get; set; }
     }

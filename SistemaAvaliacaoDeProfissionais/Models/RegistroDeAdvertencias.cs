@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class RegistroDeAdvertencias
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int RegistroDeAdvertenciasID { get; set; }
         public DateTime DataAdvertencia { get; set; }
         public string? Descricao { get; set; }

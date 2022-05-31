@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class Setores
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int setorID { get; set; }
         public string nomeSetor { get; set; }
     }

@@ -6,6 +6,7 @@ import { Profissionais } from '../../models/profissionais.model';
 import { Setores } from '../../models/setores.model';
 import { StatusAvaliacao } from '../../models/statusAvaliacao.model';
 import { TipoCargo } from '../../models/tipoCargo.model';
+import { NotificacoesService } from '../../services/notificacoes.service';
 
 @Component({
   selector: 'app-create-professional',
@@ -21,22 +22,22 @@ export class CreateProfessionalComponent implements OnInit {
 
   cargo: Cargo = {
     cargoID: 1,
-    nomeCargo: "teste",
+    nomeCargo: "",
     tipoCargo: this.tipoCargo
   }
 
   setor: Setores = {
     setorID: 1,
-    nomeSetor: "teste"
+    nomeSetor: ""
   }
 
   statusAvaliacao: StatusAvaliacao = {
     statusAvaliacaoID: 1,
-    nomeStatusAvaliacao: "teste"
+    nomeStatusAvaliacao: ""
   }
 
   profissional: Profissionais = {
-    //profissionalID: 0,
+    //profissionalID: 2,
     admissao: '',
     cargo: this.cargo,
     gestor: false,
@@ -48,7 +49,7 @@ export class CreateProfessionalComponent implements OnInit {
     userName: ''
   }
 
-  constructor(private router: Router, private httpClient: HttpClient, @Inject('BASE_URL') private baseUrl: string) { }
+  constructor(private router: Router, private httpClient: HttpClient, @Inject('BASE_URL') private baseUrl: string, private notificacao: NotificacoesService) { }
 
   ngOnInit(): void {
   }
@@ -59,6 +60,8 @@ export class CreateProfessionalComponent implements OnInit {
     httpHeaders.set('Content-Type', 'application/x-www-form-urlencoded');
 
     this.httpClient.post(this.baseUrl + 'profissionais', this.profissional, { headers: httpHeaders }).subscribe(result => {
+      this.notificacao.Notificacao("Registro efetuado com sucesso!");
+      this.router.navigate(["registrationsOfProfessionals"]);
 
     }, error => console.error(error));
   }

@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class Cargo
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int cargoID { get; set; }
         public string nomeCargo { get; set; }
         [ForeignKey("TipoCargoID")]

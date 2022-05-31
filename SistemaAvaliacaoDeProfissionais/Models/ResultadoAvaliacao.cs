@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class ResultadoAvaliacao
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ResultadoAvaliacaoID { get; set; }
         [ForeignKey("ProfissionalID")]
         public Profissionais Profissional { get; set; }

@@ -8,7 +8,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
     public class PeriodoAvaliacao
     {
 
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int PeriodoAvaliacaoID{ get; set; }
         [ForeignKey("PeriodoID")]
         public Periodos Periodo { get; set; } 

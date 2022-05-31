@@ -1,7 +1,7 @@
 import { TipoCargo } from "./tipoCargo.model";
 
 export interface Cargo {
-  cargoID: number
+  cargoID?: number
   nomeCargo: string
   tipoCargo: TipoCargo
 }

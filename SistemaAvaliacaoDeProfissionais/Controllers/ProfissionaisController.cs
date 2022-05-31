@@ -60,6 +60,25 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
             try
             {
                 _context.Profissionais.Add(profissional);
+
+                if (profissional.cargo != null)
+                {
+                    if (profissional.cargo.tipoCargo != null)
+                    {
+                        _context.TipoCargos.Remove(profissional.cargo.tipoCargo);
+                    }
+
+                    _context.Cargos.Remove(profissional.cargo);
+                }
+                if (profissional.statusAvaliacao != null)
+                {
+                    _context.StatusAvaliacoes.Remove(profissional.statusAvaliacao);
+                }
+                if (profissional.setor != null)
+                {
+                    _context.Setores.Remove(profissional.setor);
+                }
+
                 _context.SaveChanges();
             }
             catch (Exception e)

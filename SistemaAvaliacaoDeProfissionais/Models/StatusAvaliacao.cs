@@ -7,7 +7,7 @@ namespace SistemaAvaliacaoDeProfissionais.Models
 {
     public class StatusAvaliacao
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int statusAvaliacaoID { get; set; }
         public string nomeStatusAvaliacao { get; set; }
 
