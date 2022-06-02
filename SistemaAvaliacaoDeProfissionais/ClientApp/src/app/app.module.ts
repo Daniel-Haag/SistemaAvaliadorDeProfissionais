@@ -30,7 +30,8 @@ import { IndexComponent } from './components/index/index.component';
 import { MatRadioModule } from '@angular/material/radio';
 import { RegistrationsComponent } from './components/registrations/registrations.component';
 import { RegistrationOfProfessionalsComponent } from './components/registration-of-professionals/registration-of-professionals.component';
-import { CreateProfessionalComponent } from './components/create-professional/create-professional.component';
+import { CreateProfessionalComponent } from './components/cadastrar-profissional/cadastrar-profissional.component';
+import { EditarProfissionalComponent } from './components/editar-profissional/editar-profissional.component';
 
 
 @NgModule({
@@ -48,7 +49,8 @@ import { CreateProfessionalComponent } from './components/create-professional/cr
     IndexComponent,
     RegistrationsComponent,
     RegistrationOfProfessionalsComponent,
-    CreateProfessionalComponent
+    CreateProfessionalComponent,
+    EditarProfissionalComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -76,7 +78,8 @@ import { CreateProfessionalComponent } from './components/create-professional/cr
       { path: 'evaluation', component: EvaluationComponent },
       { path: 'registrations', component: RegistrationsComponent },
       { path: 'registrationsOfProfessionals', component: RegistrationOfProfessionalsComponent },
-      { path: 'createProfessional', component: CreateProfessionalComponent }
+      { path: 'createProfessional', component: CreateProfessionalComponent },
+      { path: 'registrationsOfProfessionals/editarProfissional:id', component: EditarProfissionalComponent}
 
     ]),
     BrowserAnimationsModule

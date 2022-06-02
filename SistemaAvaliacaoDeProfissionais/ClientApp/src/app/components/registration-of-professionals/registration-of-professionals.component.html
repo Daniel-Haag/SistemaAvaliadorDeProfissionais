@@ -23,6 +23,16 @@
     <th mat-header-cell *matHeaderCellDef> Setor </th>
     <td mat-cell *matCellDef="let profissional"> {{profissional.setor.nomeSetor}} </td>
   </ng-container>
+  <ng-container matColumnDef="Acoes">
+    <th mat-header-cell *matHeaderCellDef> Ações </th>
+    <td mat-cell *matCellDef="let profissional">
+      <a routerLink="editarProfissional/{{profissional.profissionalID}}">
+        <i class="material-icons">
+          edit
+        </i>
+      </a>
+    </td>
+  </ng-container>
   <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
   <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
 </table>

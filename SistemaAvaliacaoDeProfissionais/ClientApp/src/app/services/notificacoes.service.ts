@@ -11,8 +11,6 @@ export class NotificacoesService {
   Notificacao(mensagem: string): void {
     this.snackBar.open(mensagem, "OK");
   }
-
-
 }
 
 

@@ -23,28 +23,24 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
             {
                 List<Profissionais> profissionais = _context.Profissionais.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
 
-                //List<object> profissionaisObject = new List<object>();
-
-                //foreach (var item in profissionais)
-                //{
-                //    object profissional = new
-                //    {
-                //        ProfissionalID = item.profissionalID,
-                //        Nome = item.nome,
-                //        UserName = item.userName,
-                //        Senha = item.senha,
-                //        Matricula = item.matricula,
-                //        Setor = item.setor.nomeSetor ?? "",
-                //        Cargo = item.cargo.nomeCargo ?? "",
-                //        Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
-                //        Gestor = item.gestor,
-                //        StatusAvaliacao = item.statusAvaliacao.nomeStatusAvaliacao ?? ""
-                //    };
-
-                //    profissionaisObject.Add(profissional);
-                //}
-
                 return profissionais;
+            }
+            catch (Exception e)
+            {
+                string erro = e.Message;
+            }
+
+            return null;
+        }
+
+        [HttpGet("id")]
+        public Profissionais ObterPorID(int id)
+        {
+            try
+            {
+                var profissional = _context.Profissionais.Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).FirstOrDefault();
+
+                return profissional;
             }
             catch (Exception e)
             {
@@ -89,37 +85,20 @@ namespace SistemaAvaliacaoDeProfissionais.Controllers
             return Ok();
         }
 
-        [HttpGet("{id}")]
-        public IEnumerable<object> ObterPorID(int id)
+        [HttpPut("{id}")]
+        public IActionResult Put([FromBody] Profissionais profissional)
         {
-            List<Profissionais> profissionais = _context.Profissionais.Where(x => x.profissionalID == id).Include(x => x.cargo).Include(x => x.setor).Include(x => x.statusAvaliacao).ToList();
-
-            List<object> profissionaisObject = new List<object>();
-
-            foreach (var item in profissionais)
+            try
             {
-                object profissional = new
-                {
-                    ProfissionalID = item.profissionalID,
-                    Nome = item.nome,
-                    UserName = item.userName,
-                    Senha = item.senha,
-                    Matricula = item.matricula,
-                    Setor = item.setor.nomeSetor ?? "",
-                    Cargo = item.cargo.nomeCargo ?? "",
-                    Admissao = item.admissao/*.ToString("dd/MM/yyyy")*/,
-                    Gestor = item.gestor,
-                    StatusAvaliacao = item.statusAvaliacao.nomeStatusAvaliacao ?? ""
-                };
-
-                profissionaisObject.Add(profissional);
+                _context.Profissionais.Update(profissional);
+                _context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                string erro = e.Message;
             }
 
-            return profissionaisObject;
+            return Ok();
         }
-
-        
-
-
     }
 }

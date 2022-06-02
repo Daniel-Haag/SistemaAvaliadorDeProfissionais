@@ -16,7 +16,7 @@ import { TipoCargo } from '../../models/tipoCargo.model';
 })
 export class RegistrationOfProfessionalsComponent implements OnInit {
 
-  columnsToDisplay = ['ProfissionalID', 'Nome', 'Admissao', 'Cargo', 'Setor'];
+  columnsToDisplay = ['ProfissionalID', 'Nome', 'Admissao', 'Cargo', 'Setor', 'Acoes'];
   professionalsDataArray: Profissionais[] = [];
 
   tipoCargo: TipoCargo = {

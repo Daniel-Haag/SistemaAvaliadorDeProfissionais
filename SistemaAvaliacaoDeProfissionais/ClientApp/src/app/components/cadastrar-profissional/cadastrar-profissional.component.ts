@@ -9,9 +9,9 @@ import { TipoCargo } from '../../models/tipoCargo.model';
 import { NotificacoesService } from '../../services/notificacoes.service';
 
 @Component({
-  selector: 'app-create-professional',
-  templateUrl: './create-professional.component.html',
-  styleUrls: ['./create-professional.component.css']
+  selector: 'app-cadastrar-profissional',
+  templateUrl: './cadastrar-profissional.component.html',
+  styleUrls: ['./cadastrar-profissional.component.css']
 })
 export class CreateProfessionalComponent implements OnInit {
 

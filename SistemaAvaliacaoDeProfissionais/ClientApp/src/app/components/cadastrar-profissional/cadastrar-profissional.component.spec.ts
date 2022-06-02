@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CreateProfessionalComponent } from './create-professional.component';
+import { CreateProfessionalComponent } from './cadastrar-profissional.component';
 
 describe('CreateProfessionalComponent', () => {
   let component: CreateProfessionalComponent;
