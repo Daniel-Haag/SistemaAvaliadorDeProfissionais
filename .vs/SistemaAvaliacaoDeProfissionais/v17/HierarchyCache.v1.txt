@@ -3,39 +3,55 @@ i:{00000000-0000-0000-0000-000000000000}:SistemaAvaliacaoDeProfissionais.sln
 ++SistemaAvaliacaoDeProfissionais
 i:{00000000-0000-0000-0000-000000000000}:SistemaAvaliacaoDeProfissionais
 ++Connected Services 
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76761
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76671
 ++Dependências
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76760
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76670
 ++Properties
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\properties\
 ++wwwroot
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\wwwroot\
 ++ClientApp
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\
-++.angular
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\
 ++src
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\
 ++app
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\
 ++components
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\
-++create-professional
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\create-professional\
-++create-professional.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\create-professional\create-professional.component.css
-++create-professional.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\create-professional\create-professional.component.html
-++create-professional.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\create-professional\create-professional.component.spec.ts
-++create-professional.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\create-professional\create-professional.component.ts
+++cadastrar-profissional
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\cadastrar-profissional\
+++cadastrar-profissional.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\cadastrar-profissional\cadastrar-profissional.component.css
+++cadastrar-profissional.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\cadastrar-profissional\cadastrar-profissional.component.html
+++cadastrar-profissional.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\cadastrar-profissional\cadastrar-profissional.component.spec.ts
+++cadastrar-profissional.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\cadastrar-profissional\cadastrar-profissional.component.ts
+++editar-profissional
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\editar-profissional\
+++editar-profissional.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\editar-profissional\editar-profissional.component.css
+++editar-profissional.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\editar-profissional\editar-profissional.component.html
+++editar-profissional.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\editar-profissional\editar-profissional.component.spec.ts
+++editar-profissional.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\editar-profissional\editar-profissional.component.ts
 ++evaluation
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\
 ++index
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\
 ++login
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\
+++login.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.css
+++login.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.html
+++login.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.spec.ts
+++login.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.ts
 ++registration-of-professionals
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\registration-of-professionals\
 ++registration-of-professionals.component.css
@@ -50,6 +66,20 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\registrations\
 ++template
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\
+++footer
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\
+++header
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\
+++nav
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\
+++nav.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.css
+++nav.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.html
+++nav.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.spec.ts
+++nav.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.ts
 ++counter
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\
 ++fetch-data
@@ -58,18 +88,6 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\
 ++models
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\
-++cargo.model.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\cargo.model.ts
-++profissionais.model.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\profissionais.model.ts
-++setor.model.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\setor.model.ts
-++statusAvaliacao.model.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\statusavaliacao.model.ts
-++tipoCargo.model.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\tipocargo.model.ts
-++user.model.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\user.model.ts
 ++nav-menu
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\
 ++services
@@ -78,6 +96,10 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\login.service.spec.ts
 ++login.service.ts
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\login.service.ts
+++notificacoes.service.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\notificacoes.service.spec.ts
+++notificacoes.service.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\services\notificacoes.service.ts
 ++app.component.html
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\app.component.html
 ++app.component.ts
@@ -121,18 +143,8 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.json
 ++Controllers
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\
-++ProfissionaisController.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\profissionaiscontroller.cs
-++WeatherForecastController.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\weatherforecastcontroller.cs
 ++Migrations
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\
-++20220512023652_teste1.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\20220512023652_teste1.cs
-++20220513022219_teste2.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\20220513022219_teste2.cs
-++MainDbContextModelSnapshot.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\maindbcontextmodelsnapshot.cs
 ++Models
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\
 ++Cargo.cs
@@ -163,10 +175,6 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\models\usuariosexclusivos.cs
 ++Pages
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\
-++_ViewImports.cshtml
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\_viewimports.cshtml
-++Error.cshtml
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml
 ++Services
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\services\
 ++ProfissionaisService.cs
@@ -178,7 +186,7 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 ++WeatherForecast.cs
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\weatherforecast.cs
 ++Nenhuma dependência de serviço descoberta
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76762
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76672
 ++Analisadores
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:analisadores
 ++Estruturas
@@ -189,8 +197,6 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:pacotes
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\properties\launchsettings.json
 ++favicon.ico
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\wwwroot\favicon.ico
-++cache
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\
 ++evaluation.component.css
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\evaluation\evaluation.component.css
 ++evaluation.component.html
@@ -207,14 +213,6 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\index.component.spec.ts
 ++index.component.ts
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\index\index.component.ts
-++login.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.css
-++login.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.html
-++login.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.spec.ts
-++login.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\login\login.component.ts
 ++registrations.component.css
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\registrations\registrations.component.css
 ++registrations.component.html
@@ -223,12 +221,22 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\registrations\registrations.component.spec.ts
 ++registrations.component.ts
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\registrations\registrations.component.ts
-++footer
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\
-++header
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\
-++nav
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\
+++footer.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.css
+++footer.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.html
+++footer.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.spec.ts
+++footer.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.ts
+++header.component.css
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.css
+++header.component.html
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.html
+++header.component.spec.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.spec.ts
+++header.component.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.ts
 ++counter.component.html
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\counter\counter.component.html
 ++counter.component.spec.ts
@@ -243,6 +251,18 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\home.component.html
 ++home.component.ts
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\home\home.component.ts
+++cargo.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\cargo.model.ts
+++profissionais.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\profissionais.model.ts
+++setores.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\setores.model.ts
+++statusAvaliacao.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\statusavaliacao.model.ts
+++tipoCargo.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\tipocargo.model.ts
+++user.model.ts
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\models\user.model.ts
 ++nav-menu.component.css
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\nav-menu\nav-menu.component.css
 ++nav-menu.component.html
@@ -263,12 +283,18 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.app.json
 ++tsconfig.spec.json
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\tsconfig.spec.json
-++20220512023652_teste1.Designer.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\20220512023652_teste1.designer.cs
-++20220513022219_teste2.Designer.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\20220513022219_teste2.designer.cs
-++Error.cshtml.cs
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml.cs
+++ProfissionaisController.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\profissionaiscontroller.cs
+++WeatherForecastController.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\controllers\weatherforecastcontroller.cs
+++20220530031237_inicial.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\20220530031237_inicial.cs
+++MainDbContextModelSnapshot.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\maindbcontextmodelsnapshot.cs
+++_ViewImports.cshtml
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\_viewimports.cshtml
+++Error.cshtml
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml
 ++appsettings.Development.json
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\appsettings.development.json
 ++MessagePackAnalyzer
@@ -306,136 +332,18 @@ i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profis
 ++Microsoft.NETCore.App
 i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\microsoft.netcore.app
 ++EntityFramework (6.4.4)
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76787
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76713
 ++Microsoft.AspNetCore.SpaProxy (6.0.3)
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76785
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76711
 ++Microsoft.EntityFrameworkCore.SqlServer (6.0.4)
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76783
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76709
 ++Microsoft.EntityFrameworkCore.Tools (6.0.4)
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76786
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76712
 ++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.3)
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76788
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76714
 ++Swashbuckle.AspNetCore (6.3.0)
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76784
-++angular-webpack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\
-++babel-webpack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\
-++footer.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.css
-++footer.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.html
-++footer.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.spec.ts
-++footer.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\footer\footer.component.ts
-++header.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.css
-++header.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.html
-++header.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.spec.ts
-++header.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\header\header.component.ts
-++nav.component.css
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.css
-++nav.component.html
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.html
-++nav.component.spec.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.spec.ts
-++nav.component.ts
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\src\app\components\template\nav\nav.component.ts
-++e420941799087134cbaaaea04a7585b92590a421
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\
-++046294fc3b1bfd28ea4ab50f7a031dc6.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\046294fc3b1bfd28ea4ab50f7a031dc6.json
-++06c91a605ee18a9956db735a19ee2774.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\06c91a605ee18a9956db735a19ee2774.json
-++0fadabdc5fc3a6dd227d8300896df7fc.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\0fadabdc5fc3a6dd227d8300896df7fc.json
-++13b004102f68725c976e963ee7167ebc.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\13b004102f68725c976e963ee7167ebc.json
-++229b667bbc91a74f39f120b4bd475220.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\229b667bbc91a74f39f120b4bd475220.json
-++24ddbe5f3c4fdef690264709f0dff685.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\24ddbe5f3c4fdef690264709f0dff685.json
-++2739def23ba63db64405fdb5f6cf7bbe.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\2739def23ba63db64405fdb5f6cf7bbe.json
-++3310a503b0414cfaec836ec4719e4322.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\3310a503b0414cfaec836ec4719e4322.json
-++3495f6c744dc65c059be983b04664da1.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\3495f6c744dc65c059be983b04664da1.json
-++3ed6e5c762d6e41bb8a2e3ab80fc8a48.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\3ed6e5c762d6e41bb8a2e3ab80fc8a48.json
-++627ab1986d6e98d5c87cd9c58787a38e.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\627ab1986d6e98d5c87cd9c58787a38e.json
-++6448b260d0733a46b372e2b8d5ddab4a.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\6448b260d0733a46b372e2b8d5ddab4a.json
-++65797aa43d5de2a7a4d7fe889f900964.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\65797aa43d5de2a7a4d7fe889f900964.json
-++6813ee28e95e5a2e975d2da7fa01723a.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\6813ee28e95e5a2e975d2da7fa01723a.json
-++70ca2fd6349bcbc8af108a5a528a00b1.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\70ca2fd6349bcbc8af108a5a528a00b1.json
-++7cb901b263a3cc33a09be45fdba7dded.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\7cb901b263a3cc33a09be45fdba7dded.json
-++8437fffca3ea7cbd0e8950d4bd00ad39.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\8437fffca3ea7cbd0e8950d4bd00ad39.json
-++953690dd90df5f46ccb503ba1815ef50.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\953690dd90df5f46ccb503ba1815ef50.json
-++a2609e4fb3ff353aa0babfe592631a8e.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\a2609e4fb3ff353aa0babfe592631a8e.json
-++a3f23d1742c95ddc6f9815d270e373e5.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\a3f23d1742c95ddc6f9815d270e373e5.json
-++af98a77226cdba3b56d43aed16a6d416.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\af98a77226cdba3b56d43aed16a6d416.json
-++c047bd4837e2eece09d1af1711cb5e4d.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c047bd4837e2eece09d1af1711cb5e4d.json
-++c0e6b0875f67d61f544eb17d4a04db0f.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c0e6b0875f67d61f544eb17d4a04db0f.json
-++c40faafca48a720e9773fc3618790c7b.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c40faafca48a720e9773fc3618790c7b.json
-++c7c86617345a21b26f767a7a62cc71a5.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c7c86617345a21b26f767a7a62cc71a5.json
-++c8c7915f1c49165885efe55f20ec4fc5.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\c8c7915f1c49165885efe55f20ec4fc5.json
-++cd174fa8ad739d8ab40f591ab3254d0f.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\cd174fa8ad739d8ab40f591ab3254d0f.json
-++cf6bfe7f606d40400eb19f01691d9035.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\cf6bfe7f606d40400eb19f01691d9035.json
-++d5853cdc02c98630771dda2b2d47768b.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\d5853cdc02c98630771dda2b2d47768b.json
-++dadd8e196d3cd29672078d04001ac1aa.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\dadd8e196d3cd29672078d04001ac1aa.json
-++df5162450122af6f3ef62831a892b444.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\df5162450122af6f3ef62831a892b444.json
-++e295d9f83a35392a30db1ed660f8bbc4.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\e295d9f83a35392a30db1ed660f8bbc4.json
-++eaa61a24a2054d93e043dddb26e26201.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\eaa61a24a2054d93e043dddb26e26201.json
-++ee1f882adf3e86fac89fe0c5147c7eee.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\ee1f882adf3e86fac89fe0c5147c7eee.json
-++f18fb5643bda79e7f65bd816e449669a.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\f18fb5643bda79e7f65bd816e449669a.json
-++ff6d90a8a6024bd3642c55a6c9d965a3.json
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\babel-webpack\ff6d90a8a6024bd3642c55a6c9d965a3.json
-++0.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\0.pack
-++1.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\1.pack
-++2.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\2.pack
-++3.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\3.pack
-++4.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\4.pack
-++5.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\5.pack
-++6.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\6.pack
-++7.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\7.pack
-++index.pack
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\index.pack
-++index.pack.old
-i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\clientapp\.angular\cache\angular-webpack\e420941799087134cbaaaea04a7585b92590a421\index.pack.old
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:>76710
+++20220530031237_inicial.Designer.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\migrations\20220530031237_inicial.designer.cs
+++Error.cshtml.cs
+i:{7791ee07-4f43-4317-9b70-a73f3b6fc398}:c:\cursos\projeto avaliação de profissionais\sistemaavaliadordeprofissionais\sistemaavaliacaodeprofissionais\pages\error.cshtml.cs
